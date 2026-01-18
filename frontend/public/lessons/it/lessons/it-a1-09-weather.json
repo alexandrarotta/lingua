@@ -1,0 +1,83 @@
+{
+  "id": "it-a1-09-weather",
+  "titleEn": "Parlare del tempo",
+  "titleEs": "Hablar del clima",
+  "level": "A1",
+  "topic": "Weather",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Hablar del clima con frases simples.",
+    "Preguntar cómo está el tiempo hoy.",
+    "Decir si hace frío/calor o si llueve."
+  ],
+  "grammarFocus": "Preguntar: 'Che tempo fa?' y expresiones: 'Fa caldo/freddo', 'Piove', 'È nuvoloso'.",
+  "vocabList": [
+    { "en": "Che tempo fa?", "es": "¿Qué tiempo hace?" },
+    { "en": "Fa caldo", "es": "Hace calor" },
+    { "en": "Fa freddo", "es": "Hace frío" },
+    { "en": "Piove", "es": "Llueve" },
+    { "en": "Nevica", "es": "Nieva" },
+    { "en": "È soleggiato", "es": "Está soleado" },
+    { "en": "È nuvoloso", "es": "Está nublado" },
+    { "en": "Oggi", "es": "Hoy" },
+    { "en": "Domani", "es": "Mañana" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Che tempo fa oggi?" },
+    { "speaker": "B", "text": "È nuvoloso e fa un po' freddo." },
+    { "speaker": "A", "text": "Piove?" },
+    { "speaker": "B", "text": "No, ma domani piove." }
+  ],
+  "targetPhrases": [
+    "Che tempo fa oggi?",
+    "Fa caldo.",
+    "Fa freddo.",
+    "È soleggiato.",
+    "È nuvoloso.",
+    "Piove.",
+    "Domani piove."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale domanda parla del tempo?",
+        "options": ["Che tempo fa?", "Quanti anni hai?", "Dov'è la stazione?"],
+        "answerIndex": 0,
+        "explanationEs": "Che tempo fa? pregunta por el clima."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli 'Hace frío':",
+        "options": ["Fa caldo", "Fa freddo", "Piove"],
+        "answerIndex": 1,
+        "explanationEs": "Fa freddo = hace frío."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Cosa significa 'È nuvoloso'?",
+        "options": ["Está nublado", "Está nevando", "Hace calor"],
+        "answerIndex": 0,
+        "explanationEs": "È nuvoloso = está nublado."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Che ____ fa oggi?", "answer": "tempo", "explanationEs": "Che tempo fa? = ¿Qué tiempo hace?" },
+      { "id": "fib-2", "sentenceEn": "Oggi è ____.", "answer": "soleggiato", "explanationEs": "Soleggiato = soleado." },
+      { "id": "fib-3", "sentenceEn": "Domani ____.", "answer": "piove", "explanationEs": "Piove = llueve." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["fa", "tempo", "Che"], "answer": ["Che", "tempo", "fa"], "translationEs": "¿Qué tiempo hace?" },
+      { "id": "rw-2", "words": ["freddo", "Fa"], "answer": ["Fa", "freddo"], "translationEs": "Hace frío." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Parli con un amico. Chiedi del tempo e fai un piano semplice in base al clima.",
+    "promptsEn": [
+      "Chiedi che tempo fa oggi.",
+      "Di' com'è il tempo (caldo/freddo/nuvoloso).",
+      "Chiedi com'è il tempo domani."
+    ]
+  }
+}
+

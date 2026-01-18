@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-15-clothes-shopping",
+  "titleEn": "Comprare vestiti",
+  "titleEs": "Comprar ropa",
+  "level": "A2",
+  "topic": "Shopping",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Pedir una talla y probar ropa.",
+    "Describir si algo es grande/pequeño/caro/barato.",
+    "Pedir otro color o modelo."
+  ],
+  "grammarFocus": "Frases útiles: 'Che taglia?', 'Posso provarlo?', 'È troppo grande/piccolo'.",
+  "vocabList": [
+    { "en": "Che taglia?", "es": "¿Qué talla?" },
+    { "en": "Posso provarlo?", "es": "¿Puedo probármelo?" },
+    { "en": "spogliatoio", "es": "probador" },
+    { "en": "È troppo grande", "es": "Es demasiado grande" },
+    { "en": "È troppo piccolo", "es": "Es demasiado pequeño" },
+    { "en": "Va bene", "es": "Queda bien" },
+    { "en": "Quanto costa?", "es": "¿Cuánto cuesta?" },
+    { "en": "un altro colore", "es": "otro color" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Buongiorno. Posso aiutarla?" },
+    { "speaker": "B", "text": "Sì, grazie. Posso provarlo?" },
+    { "speaker": "A", "text": "Certo. Lo spogliatoio è lì. Che taglia?" },
+    { "speaker": "B", "text": "Taglia M, per favore." }
+  ],
+  "targetPhrases": [
+    "Che taglia?",
+    "Taglia M, per favore.",
+    "Posso provarlo?",
+    "Dov'è lo spogliatoio?",
+    "È troppo grande.",
+    "È troppo piccolo.",
+    "Avete un altro colore?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Come chiedi la taglia?",
+        "options": ["Che taglia?", "Che tempo fa?", "Che ora è?"],
+        "answerIndex": 0,
+        "explanationEs": "Che taglia? = ¿Qué talla?"
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale significa 'probador'?",
+        "options": ["spogliatoio", "stazione", "farmacia"],
+        "answerIndex": 0,
+        "explanationEs": "Spogliatoio = probador."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli la frase per dire 'Es demasiado pequeño':",
+        "options": ["È troppo piccolo.", "È molto piccolo.", "Sono piccolo."],
+        "answerIndex": 0,
+        "explanationEs": "È troppo piccolo = es demasiado pequeño."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Posso ____?", "answer": "provarlo", "explanationEs": "Posso provarlo? = ¿Puedo probármelo?" },
+      { "id": "fib-2", "sentenceEn": "È troppo ____.", "answer": "grande", "explanationEs": "Troppo grande = demasiado grande." },
+      { "id": "fib-3", "sentenceEn": "Avete un altro ____?", "answer": "colore", "explanationEs": "Altro colore = otro color." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["taglia", "Che"], "answer": ["Che", "taglia"], "translationEs": "¿Qué talla?" },
+      { "id": "rw-2", "words": ["provarlo", "Posso"], "answer": ["Posso", "provarlo"], "translationEs": "¿Puedo probármelo?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei in un negozio. Chiedi una taglia, prova un capo e chiedi un altro colore.",
+    "promptsEn": [
+      "Chiedi se puoi provarlo e dove è lo spogliatoio.",
+      "Di' la tua taglia e descrivi se va bene.",
+      "Chiedi un altro colore e il prezzo."
+    ]
+  }
+}
+

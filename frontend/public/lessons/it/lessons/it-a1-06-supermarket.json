@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-06-supermarket",
+  "titleEn": "Al supermercato",
+  "titleEs": "En el supermercado",
+  "level": "A1",
+  "topic": "Shopping",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Pedir productos y cantidades simples.",
+    "Preguntar el precio.",
+    "Usar 'vorrei' y 'quanto costa'."
+  ],
+  "grammarFocus": "Preguntar precio: 'Quanto costa?' / 'Quanto costano?'. Pedir: 'Vorrei...'.",
+  "vocabList": [
+    { "en": "Quanto costa?", "es": "¿Cuánto cuesta?" },
+    { "en": "Quanto costano?", "es": "¿Cuánto cuestan?" },
+    { "en": "Vorrei...", "es": "Quisiera..." },
+    { "en": "un chilo di...", "es": "un kilo de..." },
+    { "en": "una bottiglia d'acqua", "es": "una botella de agua" },
+    { "en": "mele", "es": "manzanas" },
+    { "en": "pane", "es": "pan" },
+    { "en": "latte", "es": "leche" },
+    { "en": "carta", "es": "tarjeta" },
+    { "en": "contanti", "es": "efectivo" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Buongiorno. Vorrei un chilo di mele, per favore." },
+    { "speaker": "B", "text": "Certo. Altro?" },
+    { "speaker": "A", "text": "Una bottiglia d'acqua. Quanto costa tutto?" },
+    { "speaker": "B", "text": "Sono 5 euro." }
+  ],
+  "targetPhrases": [
+    "Vorrei un chilo di mele.",
+    "Quanto costa questo?",
+    "Quanto costa tutto?",
+    "Una bottiglia d'acqua, per favore.",
+    "È tutto, grazie.",
+    "Pago con carta.",
+    "Sono cinque euro."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale frase usi per chiedere il prezzo?",
+        "options": ["Quanto costa?", "Come ti chiami?", "Che tempo fa?"],
+        "answerIndex": 0,
+        "explanationEs": "Quanto costa? = ¿Cuánto cuesta?"
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli la quantità corretta:",
+        "options": ["un chilo di mele", "un mele", "una chilo mele"],
+        "answerIndex": 0,
+        "explanationEs": "La forma correcta: un chilo di + producto."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Come dici 'Pago con tarjeta'?",
+        "options": ["Pago con carta.", "Pago con contanti.", "Sono carta."],
+        "answerIndex": 0,
+        "explanationEs": "Pago con carta = pago con tarjeta."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Vorrei un ____ di mele.", "answer": "chilo", "explanationEs": "Un chilo = un kilo." },
+      { "id": "fib-2", "sentenceEn": "Quanto ____ questo?", "answer": "costa", "explanationEs": "Quanto costa? = ¿Cuánto cuesta?" },
+      { "id": "fib-3", "sentenceEn": "Pago con ____.", "answer": "carta", "explanationEs": "Carta = tarjeta." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["costa", "Quanto", "questo"], "answer": ["Quanto", "costa", "questo"], "translationEs": "¿Cuánto cuesta esto?" },
+      { "id": "rw-2", "words": ["un", "mele", "Vorrei", "chilo", "di"], "answer": ["Vorrei", "un", "chilo", "di", "mele"], "translationEs": "Quisiera un kilo de manzanas." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei al supermercato. Chiedi due prodotti e domanda il prezzo totale.",
+    "promptsEn": [
+      "Chiedi un prodotto con quantità (un chilo di...).",
+      "Chiedi un'altra cosa (una bottiglia...).",
+      "Chiedi il prezzo totale e come pagare."
+    ]
+  }
+}
+

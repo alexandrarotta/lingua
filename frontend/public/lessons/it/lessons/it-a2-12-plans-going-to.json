@@ -1,0 +1,83 @@
+{
+  "id": "it-a2-12-plans-going-to",
+  "titleEn": "Piani (futuro: 'andare a')",
+  "titleEs": "Planes (futuro)",
+  "level": "A2",
+  "topic": "Plans",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hablar de planes para mañana o el fin de semana.",
+    "Usar futuro simple de intención con 'andare a' (vado a...).",
+    "Aceptar o rechazar una invitación de forma simple."
+  ],
+  "grammarFocus": "Futuro cercano: 'Domani vado a...' / 'Questo weekend vado a...'. Invitaciones: 'Vuoi...?'",
+  "vocabList": [
+    { "en": "Domani", "es": "mañana" },
+    { "en": "Questo weekend", "es": "este fin de semana" },
+    { "en": "Vado a...", "es": "Voy a..." },
+    { "en": "Vorrei...", "es": "Me gustaría..." },
+    { "en": "Vuoi venire?", "es": "¿Quieres venir?" },
+    { "en": "Sì, volentieri", "es": "Sí, con gusto" },
+    { "en": "Mi dispiace, non posso", "es": "Lo siento, no puedo" },
+    { "en": "a cena", "es": "a cenar" },
+    { "en": "al parco", "es": "al parque" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Che fai domani?" },
+    { "speaker": "B", "text": "Domani vado al parco. E tu?" },
+    { "speaker": "A", "text": "Io vado a cena con amici. Vuoi venire?" },
+    { "speaker": "B", "text": "Sì, volentieri!" }
+  ],
+  "targetPhrases": [
+    "Che fai domani?",
+    "Domani vado al parco.",
+    "Questo weekend vado a cena.",
+    "Vuoi venire?",
+    "Sì, volentieri!",
+    "Mi dispiace, non posso.",
+    "A che ora?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la frase sui piani:",
+        "options": ["Domani vado al parco.", "Ieri sono andato al parco.", "Mi sveglio alle sette."],
+        "answerIndex": 0,
+        "explanationEs": "Domani vado... expresa un plan."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Come inviti qualcuno?",
+        "options": ["Vuoi venire?", "Sei venuto.", "Vieni!"],
+        "answerIndex": 0,
+        "explanationEs": "Vuoi venire? = ¿Quieres venir?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli un rifiuto educato:",
+        "options": ["No.", "Mi dispiace, non posso.", "Vai via."],
+        "answerIndex": 1,
+        "explanationEs": "Mi dispiace, non posso = lo siento, no puedo."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Domani ____ al parco.", "answer": "vado", "explanationEs": "Vado = voy." },
+      { "id": "fib-2", "sentenceEn": "Vuoi ____?", "answer": "venire", "explanationEs": "Vuoi venire? = ¿Quieres venir?" },
+      { "id": "fib-3", "sentenceEn": "Mi dispiace, non ____.", "answer": "posso", "explanationEs": "Non posso = no puedo." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["domani", "fai", "Che"], "answer": ["Che", "fai", "domani"], "translationEs": "¿Qué haces mañana?" },
+      { "id": "rw-2", "words": ["volentieri", "Sì"], "answer": ["Sì", "volentieri"], "translationEs": "Sí, con gusto." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Fai un piano con un amico. Parla di domani e invita qualcuno.",
+    "promptsEn": [
+      "Di' cosa fai domani.",
+      "Invita l'altra persona a venire.",
+      "Accetta o rifiuta e proponi un orario."
+    ]
+  }
+}
+

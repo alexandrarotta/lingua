@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-14-work-meeting",
+  "titleEn": "Lavoro: linguaggio per una riunione",
+  "titleEs": "Trabajo: frases para una reunión",
+  "level": "A2",
+  "topic": "Work",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Participar en una reunión con frases simples.",
+    "Proponer ideas y pedir opiniones.",
+    "Confirmar acuerdos y próximos pasos."
+  ],
+  "grammarFocus": "Frases útiles: 'Oggi parliamo di...', 'Sei d'accordo?', 'Possiamo...?', 'Prossimo passo...'.",
+  "vocabList": [
+    { "en": "Oggi parliamo di...", "es": "Hoy hablamos de..." },
+    { "en": "Il punto numero uno", "es": "El punto número uno" },
+    { "en": "Sei d'accordo?", "es": "¿Estás de acuerdo?" },
+    { "en": "Penso che...", "es": "Pienso que..." },
+    { "en": "Possiamo...", "es": "Podemos..." },
+    { "en": "Va bene", "es": "Está bien" },
+    { "en": "Non sono sicuro/a", "es": "No estoy seguro/a" },
+    { "en": "il prossimo passo", "es": "el siguiente paso" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Oggi parliamo del progetto. Il punto numero uno: le scadenze." },
+    { "speaker": "B", "text": "Va bene. Penso che possiamo finire venerdì." },
+    { "speaker": "A", "text": "Sei d'accordo con questa data?" },
+    { "speaker": "B", "text": "Sì, va bene. Il prossimo passo è inviare un'email al team." }
+  ],
+  "targetPhrases": [
+    "Oggi parliamo di...",
+    "Il punto numero uno.",
+    "Penso che possiamo...",
+    "Sei d'accordo?",
+    "Va bene.",
+    "Non sono sicuro/a.",
+    "Il prossimo passo è..."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale frase introduce l'argomento?",
+        "options": ["Oggi parliamo di...", "Che tempo fa?", "Quanti anni hai?"],
+        "answerIndex": 0,
+        "explanationEs": "Oggi parliamo di... introduce el tema."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Come chiedi un accordo?",
+        "options": ["Sei d'accordo?", "Vai a destra?", "Hai fame?"],
+        "answerIndex": 0,
+        "explanationEs": "Sei d'accordo? = ¿Estás de acuerdo?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli la frase per dire 'No estoy seguro':",
+        "options": ["Non sono sicuro/a.", "Sono sicuro/a.", "Sono stanco/a."],
+        "answerIndex": 0,
+        "explanationEs": "Non sono sicuro/a = no estoy seguro/a."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Oggi ____ di scadenze.", "answer": "parliamo", "explanationEs": "Oggi parliamo di... = hoy hablamos de..." },
+      { "id": "fib-2", "sentenceEn": "Sei d'____?", "answer": "accordo", "explanationEs": "Sei d'accordo? = ¿Estás de acuerdo?" },
+      { "id": "fib-3", "sentenceEn": "Il prossimo ____ è...", "answer": "passo", "explanationEs": "Prossimo passo = siguiente paso." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["bene", "Va"], "answer": ["Va", "bene"], "translationEs": "Está bien." },
+      { "id": "rw-2", "words": ["parliamo", "Oggi", "di"], "answer": ["Oggi", "parliamo", "di"], "translationEs": "Hoy hablamos de..." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei in una riunione. Presenta un punto, chiedi opinioni e chiudi con un prossimo passo.",
+    "promptsEn": [
+      "Introduci l'argomento della riunione.",
+      "Fai una proposta e chiedi se sono d'accordo.",
+      "Definisci un prossimo passo semplice."
+    ]
+  }
+}
+

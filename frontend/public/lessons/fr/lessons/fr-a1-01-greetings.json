@@ -1,0 +1,111 @@
+{
+  "id": "fr-a1-01-greetings",
+  "titleEn": "Salutations et présentations",
+  "titleEs": "Saludos y presentaciones",
+  "level": "A1",
+  "topic": "Introductions",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Saludar y presentarte de forma simple en francés.",
+    "Preguntar y decir tu nombre.",
+    "Preguntar y decir de dónde eres."
+  ],
+  "grammarFocus": "Verbo 'être' (je suis/tu es/il est) y preguntas cortas: 'Comment tu t'appelles ?' / 'Tu viens d'où ?'",
+  "vocabList": [
+    { "en": "Salut", "es": "Hola (informal)" },
+    { "en": "Bonjour", "es": "Buenos días / Hola" },
+    { "en": "Bonsoir", "es": "Buenas tardes/noches" },
+    { "en": "Je m'appelle...", "es": "Me llamo..." },
+    { "en": "Enchanté(e) !", "es": "¡Encantado/a!" },
+    { "en": "Et toi ?", "es": "¿Y tú?" },
+    { "en": "Tu viens d'où ?", "es": "¿De dónde eres?" },
+    { "en": "Je viens de...", "es": "Soy de..." },
+    { "en": "Merci", "es": "Gracias" },
+    { "en": "À bientôt", "es": "Hasta pronto" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Salut ! Je m'appelle Ana. Et toi, comment tu t'appelles ?" },
+    { "speaker": "B", "text": "Salut, Ana. Je m'appelle Marc. Enchanté !" },
+    { "speaker": "A", "text": "Enchantée ! Tu viens d'où ?" },
+    { "speaker": "B", "text": "Je viens du Mexique. Et toi ?" },
+    { "speaker": "A", "text": "Je viens d'Espagne." }
+  ],
+  "targetPhrases": [
+    "Salut, je m'appelle Ana.",
+    "Comment tu t'appelles ?",
+    "Je m'appelle Marc.",
+    "Enchanté !",
+    "Tu viens d'où ?",
+    "Je viens du Mexique.",
+    "Et toi ?",
+    "À bientôt."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choisis un salut pour le matin :",
+        "options": ["Bonne nuit", "Bonjour", "Au revoir"],
+        "answerIndex": 1,
+        "explanationEs": "En la mañana se usa 'Bonjour'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Complète : Je ___ Ana.",
+        "options": ["suis", "es", "est"],
+        "answerIndex": 0,
+        "explanationEs": "Con 'je' usamos 'suis'."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quelle question demande le nom ?",
+        "options": ["Comment tu t'appelles ?", "Tu viens d'où ?", "Quel âge as-tu ?"],
+        "answerIndex": 0,
+        "explanationEs": "'Comment tu t\\'appelles ?' pregunta el nombre."
+      }
+    ],
+    "fillInTheBlank": [
+      {
+        "id": "fib-1",
+        "sentenceEn": "Je ____ du Mexique.",
+        "answer": "viens",
+        "explanationEs": "Para decir origen: Je viens de/du + lugar."
+      },
+      {
+        "id": "fib-2",
+        "sentenceEn": "Je m'____ Ana.",
+        "answer": "appelle",
+        "explanationEs": "Para presentarte: Je m'appelle + nombre."
+      },
+      {
+        "id": "fib-3",
+        "sentenceEn": "____ toi ?",
+        "answer": "Et",
+        "explanationEs": "Para decir '¿y tú?': Et toi ?"
+      }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["m'appelle", "Je", "Marc"],
+        "answer": ["Je", "m'appelle", "Marc"],
+        "translationEs": "Me llamo Marc."
+      },
+      {
+        "id": "rw-2",
+        "words": ["viens", "Tu", "d'où"],
+        "answer": ["Tu", "viens", "d'où"],
+        "translationEs": "¿De dónde eres?"
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Tu rencontres quelqu'un dans un café. Dis bonjour, présente-toi et demande d'où il/elle vient.",
+    "promptsEn": [
+      "Dis bonjour et présente-toi.",
+      "Demande son nom et d'où il/elle vient.",
+      "Dis au revoir poliment."
+    ]
+  }
+}
+

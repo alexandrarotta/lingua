@@ -1,0 +1,87 @@
+{
+  "id": "a1-07-directions",
+  "titleEn": "Asking for Directions",
+  "titleEs": "Pedir direcciones",
+  "level": "A1",
+  "topic": "Directions",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Preguntar dónde queda un lugar.",
+    "Entender instrucciones simples (left/right/straight).",
+    "Agradecer y confirmar."
+  ],
+  "grammarFocus": "Preguntas: 'Where is...?' y frases de dirección: 'Turn left/right', 'Go straight'.",
+  "vocabList": [
+    { "en": "Where is...?", "es": "¿Dónde está...?" },
+    { "en": "turn left", "es": "gira a la izquierda" },
+    { "en": "turn right", "es": "gira a la derecha" },
+    { "en": "go straight", "es": "sigue derecho" },
+    { "en": "near", "es": "cerca" },
+    { "en": "far", "es": "lejos" },
+    { "en": "on the corner", "es": "en la esquina" },
+    { "en": "street", "es": "calle" },
+    { "en": "block", "es": "cuadra" },
+    { "en": "bus stop", "es": "parada de bus" },
+    { "en": "thank you", "es": "gracias" },
+    { "en": "Excuse me", "es": "Disculpe" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Excuse me. Where is the bus stop?" },
+    { "speaker": "B", "text": "Go straight and turn left." },
+    { "speaker": "A", "text": "Is it far?" },
+    { "speaker": "B", "text": "No, it's near. It's on the corner." },
+    { "speaker": "A", "text": "Thank you!" }
+  ],
+  "targetPhrases": [
+    "Excuse me. Where is the bus stop?",
+    "Go straight.",
+    "Turn left.",
+    "Turn right.",
+    "Is it far?",
+    "It's near.",
+    "It's on the corner."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the direction: 'gira a la izquierda'",
+        "options": ["turn right", "turn left", "go straight"],
+        "answerIndex": 1,
+        "explanationEs": "turn left = gira a la izquierda."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Complete: Where ____ the bus stop?",
+        "options": ["is", "are", "am"],
+        "answerIndex": 0,
+        "explanationEs": "Where is...?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Which means 'cerca'?",
+        "options": ["near", "far", "corner"],
+        "answerIndex": 0,
+        "explanationEs": "near = cerca."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Go ____.", "answer": "straight", "explanationEs": "go straight = sigue derecho." },
+      { "id": "fib-2", "sentenceEn": "Turn ____.", "answer": "left", "explanationEs": "turn left = gira a la izquierda." },
+      { "id": "fib-3", "sentenceEn": "It's on the ____.", "answer": "corner", "explanationEs": "on the corner = en la esquina." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["is", "Where", "the", "hotel"], "answer": ["Where", "is", "the", "hotel"], "translationEs": "¿Dónde está el hotel?" },
+      { "id": "rw-2", "words": ["it", "Is", "far"], "answer": ["Is", "it", "far"], "translationEs": "¿Está lejos?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are lost in a city. Ask where the museum is and follow directions.",
+    "promptsEn": [
+      "Ask where a place is.",
+      "Ask if it is far.",
+      "Say thank you and repeat the direction."
+    ]
+  }
+}
+

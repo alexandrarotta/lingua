@@ -1,0 +1,30 @@
+{
+  "name": "lingua",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "dev:backend": "node scripts/with-node24.mjs -- npm -w backend run dev",
+    "dev:frontend": "wait-on http://localhost:8787/api/health && node scripts/with-node24.mjs -- npm -w frontend run dev",
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:backend": "node scripts/with-node24.mjs -- npm -w backend run build",
+    "build:frontend": "node scripts/with-node24.mjs -- npm -w frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "test:backend": "node scripts/with-node24.mjs -- npm -w backend run test",
+    "test:frontend": "node scripts/with-node24.mjs -- npm -w frontend run test",
+    "test": "npm run test:backend && npm run test:frontend",
+    "lint:backend": "node scripts/with-node24.mjs -- npm -w backend run lint",
+    "lint:frontend": "node scripts/with-node24.mjs -- npm -w frontend run lint",
+    "lint": "npm run lint:backend && npm run lint:frontend"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1",
+    "wait-on": "8.0.5"
+  }
+}

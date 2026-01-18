@@ -1,0 +1,85 @@
+{
+  "id": "a1-06-supermarket",
+  "titleEn": "At the Supermarket",
+  "titleEs": "En el supermercado",
+  "level": "A1",
+  "topic": "Shopping",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Preguntar precios y cantidades.",
+    "Pedir un producto y preguntar si hay disponible.",
+    "Usar expresiones simples: 'How much is...?' / 'Do you have...?'"
+  ],
+  "grammarFocus": "Preguntas con 'How much...?' y 'Do you have...?'",
+  "vocabList": [
+    { "en": "How much is it?", "es": "¿Cuánto cuesta?" },
+    { "en": "Do you have...?", "es": "¿Tienen...?" },
+    { "en": "apple", "es": "manzana" },
+    { "en": "banana", "es": "banana" },
+    { "en": "milk", "es": "leche" },
+    { "en": "bread", "es": "pan" },
+    { "en": "egg", "es": "huevo" },
+    { "en": "cheese", "es": "queso" },
+    { "en": "a bag", "es": "una bolsa" },
+    { "en": "cheap", "es": "barato" },
+    { "en": "expensive", "es": "caro" },
+    { "en": "That's all", "es": "Eso es todo" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Excuse me. Do you have milk?" },
+    { "speaker": "B", "text": "Yes, it's over there." },
+    { "speaker": "A", "text": "Thanks. How much is it?" },
+    { "speaker": "B", "text": "It's two dollars." }
+  ],
+  "targetPhrases": [
+    "Excuse me.",
+    "Do you have milk?",
+    "How much is it?",
+    "It's two dollars.",
+    "That's all, thank you.",
+    "Can I have a bag, please?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct question to ask the price:",
+        "options": ["How much is it?", "How old are you?", "Where are you from?"],
+        "answerIndex": 0,
+        "explanationEs": "Para precio usamos 'How much is it?'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which sentence asks if the store has an item?",
+        "options": ["Do you have cheese?", "I have cheese.", "Cheese is good."],
+        "answerIndex": 0,
+        "explanationEs": "'Do you have...?' = ¿Tienen...?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the item you buy at a supermarket:",
+        "options": ["milk", "teacher", "airport"],
+        "answerIndex": 0,
+        "explanationEs": "milk = leche."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Do you have ____?", "answer": "bread", "explanationEs": "Ejemplo: Do you have bread?" },
+      { "id": "fib-2", "sentenceEn": "How ____ is it?", "answer": "much", "explanationEs": "How much is it?" },
+      { "id": "fib-3", "sentenceEn": "Can I have a ____ , please?", "answer": "bag", "explanationEs": "a bag = una bolsa." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["have", "you", "Do", "milk"], "answer": ["Do", "you", "have", "milk"], "translationEs": "¿Tienen leche?" },
+      { "id": "rw-2", "words": ["much", "How", "it", "is"], "answer": ["How", "much", "is", "it"], "translationEs": "¿Cuánto cuesta?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are shopping for food. Ask for an item and ask the price.",
+    "promptsEn": [
+      "Ask if they have an item you need.",
+      "Ask the price.",
+      "Finish the conversation politely."
+    ]
+  }
+}
+

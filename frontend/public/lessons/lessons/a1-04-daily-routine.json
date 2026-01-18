@@ -1,0 +1,95 @@
+{
+  "id": "a1-04-daily-routine",
+  "titleEn": "Daily Routine",
+  "titleEs": "Rutina diaria",
+  "level": "A1",
+  "topic": "Daily routine",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Describir tu rutina con presente simple.",
+    "Usar adverbios de frecuencia básicos (always/usually/sometimes/never).",
+    "Hacer preguntas simples sobre horarios."
+  ],
+  "grammarFocus": "Presente simple (I wake up / I go to work) y adverbios de frecuencia.",
+  "vocabList": [
+    { "en": "wake up", "es": "despertarse" },
+    { "en": "get up", "es": "levantarse" },
+    { "en": "have breakfast", "es": "desayunar" },
+    { "en": "go to work", "es": "ir al trabajo" },
+    { "en": "go to school", "es": "ir a la escuela" },
+    { "en": "have lunch", "es": "almorzar" },
+    { "en": "finish work", "es": "terminar el trabajo" },
+    { "en": "go home", "es": "volver a casa" },
+    { "en": "usually", "es": "normalmente" },
+    { "en": "sometimes", "es": "a veces" },
+    { "en": "always", "es": "siempre" },
+    { "en": "never", "es": "nunca" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "What time do you wake up?" },
+    { "speaker": "B", "text": "I usually wake up at seven." },
+    { "speaker": "A", "text": "Do you have breakfast?" },
+    { "speaker": "B", "text": "Yes, I always have breakfast." }
+  ],
+  "targetPhrases": [
+    "I usually wake up at seven.",
+    "I always have breakfast.",
+    "I sometimes work from home.",
+    "I never skip lunch.",
+    "What time do you wake up?",
+    "Do you have breakfast?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct sentence:",
+        "options": ["I wake up at seven.", "I wakes up at seven.", "I waking up at seven."],
+        "answerIndex": 0,
+        "explanationEs": "Con 'I' va el verbo base: wake up."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Pick a frequency adverb:",
+        "options": ["usually", "yesterday", "because"],
+        "answerIndex": 0,
+        "explanationEs": "'usually' indica frecuencia."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Which question is correct?",
+        "options": ["What time you wake up?", "What time do you wake up?", "What time are you wake up?"],
+        "answerIndex": 1,
+        "explanationEs": "En presente simple: What time do you...?"
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I usually ____ up at seven.", "answer": "wake", "explanationEs": "wake up = despertarse." },
+      { "id": "fib-2", "sentenceEn": "I always have ____.", "answer": "breakfast", "explanationEs": "have breakfast = desayunar." },
+      { "id": "fib-3", "sentenceEn": "I ____ skip lunch.", "answer": "never", "explanationEs": "never = nunca." }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["usually", "I", "at", "seven", "wake", "up"],
+        "answer": ["I", "usually", "wake", "up", "at", "seven"],
+        "translationEs": "Normalmente me despierto a las siete."
+      },
+      {
+        "id": "rw-2",
+        "words": ["time", "do", "wake", "you", "up", "What"],
+        "answer": ["What", "time", "do", "you", "wake", "up"],
+        "translationEs": "¿A qué hora te despiertas?"
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You talk about your routine with a coworker.",
+    "promptsEn": [
+      "Say what time you wake up and have breakfast.",
+      "Ask what time they start work or school.",
+      "Say one thing you never do in the morning."
+    ]
+  }
+}
+

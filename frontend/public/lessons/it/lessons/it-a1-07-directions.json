@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-07-directions",
+  "titleEn": "Chiedere indicazioni",
+  "titleEs": "Pedir direcciones",
+  "level": "A1",
+  "topic": "Directions",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Preguntar cómo llegar a un lugar.",
+    "Usar direcciones simples (derecha/izquierda/todo recto).",
+    "Entender indicaciones cortas."
+  ],
+  "grammarFocus": "Preguntas con 'Dov'è...?' y 'Come arrivo a...?' + direcciones básicas.",
+  "vocabList": [
+    { "en": "Scusi", "es": "Disculpe" },
+    { "en": "Dov'è la stazione?", "es": "¿Dónde está la estación?" },
+    { "en": "Come arrivo a...?", "es": "¿Cómo llego a...?" },
+    { "en": "a destra", "es": "a la derecha" },
+    { "en": "a sinistra", "es": "a la izquierda" },
+    { "en": "dritto", "es": "todo recto" },
+    { "en": "vicino", "es": "cerca" },
+    { "en": "lontano", "es": "lejos" },
+    { "en": "qui", "es": "aquí" },
+    { "en": "lì", "es": "allí" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Scusi, dov'è la stazione?" },
+    { "speaker": "B", "text": "È vicino. Vai dritto e poi a destra." },
+    { "speaker": "A", "text": "Grazie! È lontano?" },
+    { "speaker": "B", "text": "No, è a cinque minuti." }
+  ],
+  "targetPhrases": [
+    "Scusi, dov'è la stazione?",
+    "Come arrivo al centro?",
+    "Vai dritto.",
+    "Poi a destra.",
+    "Poi a sinistra.",
+    "È vicino.",
+    "Grazie!"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale frase chiedi la posizione?",
+        "options": ["Dov'è la stazione?", "Che tempo fa?", "Quanti anni hai?"],
+        "answerIndex": 0,
+        "explanationEs": "Dov'è...? pregunta dónde está."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli 'a la derecha':",
+        "options": ["a sinistra", "a destra", "dritto"],
+        "answerIndex": 1,
+        "explanationEs": "a destra = a la derecha."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quale è un modo educato per iniziare?",
+        "options": ["Scusi", "Dammi", "Voglio"],
+        "answerIndex": 0,
+        "explanationEs": "Scusi = disculpe, suena educado."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "____, dov'è il bagno?", "answer": "Scusi", "explanationEs": "Scusi = disculpe." },
+      { "id": "fib-2", "sentenceEn": "Vai ____.", "answer": "dritto", "explanationEs": "Vai dritto = ve recto." },
+      { "id": "fib-3", "sentenceEn": "Poi a ____.", "answer": "destra", "explanationEs": "Poi a destra = luego a la derecha." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["la", "stazione", "Dov'è"], "answer": ["Dov'è", "la", "stazione"], "translationEs": "¿Dónde está la estación?" },
+      { "id": "rw-2", "words": ["dritto", "Vai"], "answer": ["Vai", "dritto"], "translationEs": "Ve recto." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei in strada. Chiedi come arrivare a un posto e ripeti le indicazioni.",
+    "promptsEn": [
+      "Chiedi dov'è un posto (stazione/centro).",
+      "Chiedi se è vicino o lontano.",
+      "Ripeti le indicazioni: dritto, poi a destra/sinistra."
+    ]
+  }
+}
+

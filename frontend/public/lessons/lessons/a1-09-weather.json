@@ -1,0 +1,85 @@
+{
+  "id": "a1-09-weather",
+  "titleEn": "Weather Talk",
+  "titleEs": "Hablar del clima",
+  "level": "A1",
+  "topic": "Weather",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Describir el clima con frases simples.",
+    "Preguntar por el clima de hoy y mañana.",
+    "Usar adjetivos básicos (sunny, rainy, cold, hot)."
+  ],
+  "grammarFocus": "Estructuras con 'It's ...' y preguntas: 'What's the weather like?'",
+  "vocabList": [
+    { "en": "weather", "es": "clima" },
+    { "en": "sunny", "es": "soleado" },
+    { "en": "rainy", "es": "lluvioso" },
+    { "en": "cloudy", "es": "nublado" },
+    { "en": "windy", "es": "ventoso" },
+    { "en": "hot", "es": "caluroso" },
+    { "en": "cold", "es": "frío" },
+    { "en": "warm", "es": "templado" },
+    { "en": "today", "es": "hoy" },
+    { "en": "tomorrow", "es": "mañana" },
+    { "en": "What's the weather like?", "es": "¿Qué tal el clima?" },
+    { "en": "It's ...", "es": "Está..." }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "What's the weather like today?" },
+    { "speaker": "B", "text": "It's sunny and warm." },
+    { "speaker": "A", "text": "Nice! How about tomorrow?" },
+    { "speaker": "B", "text": "Tomorrow it's rainy." }
+  ],
+  "targetPhrases": [
+    "What's the weather like today?",
+    "It's sunny.",
+    "It's rainy.",
+    "It's cold today.",
+    "How about tomorrow?",
+    "Tomorrow it's windy."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct sentence:",
+        "options": ["Is sunny today.", "It's sunny today.", "It sunny today."],
+        "answerIndex": 1,
+        "explanationEs": "Se usa 'It's' para describir el clima."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which word means 'lluvioso'?",
+        "options": ["windy", "rainy", "warm"],
+        "answerIndex": 1,
+        "explanationEs": "rainy = lluvioso."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the question about weather:",
+        "options": ["What's your name?", "What's the weather like?", "What's your phone number?"],
+        "answerIndex": 1,
+        "explanationEs": "Esa pregunta es sobre el clima."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "It's ____ today.", "answer": "sunny", "explanationEs": "sunny = soleado." },
+      { "id": "fib-2", "sentenceEn": "Tomorrow it's ____.", "answer": "rainy", "explanationEs": "rainy = lluvioso." },
+      { "id": "fib-3", "sentenceEn": "It's ____ and cold.", "answer": "windy", "explanationEs": "windy = ventoso." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["weather", "the", "What's", "like"], "answer": ["What's", "the", "weather", "like"], "translationEs": "¿Qué tal el clima?" },
+      { "id": "rw-2", "words": ["sunny", "It's", "today"], "answer": ["It's", "sunny", "today"], "translationEs": "Está soleado hoy." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Small talk with a neighbor about the weather.",
+    "promptsEn": [
+      "Ask about today's weather.",
+      "Say it's sunny or rainy.",
+      "Ask about tomorrow's weather."
+    ]
+  }
+}
+

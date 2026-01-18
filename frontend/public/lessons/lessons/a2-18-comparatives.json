@@ -1,0 +1,84 @@
+{
+  "id": "a2-18-comparatives",
+  "titleEn": "Comparatives and Preferences",
+  "titleEs": "Comparativos y preferencias",
+  "level": "A2",
+  "topic": "Opinions",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Comparar cosas con comparativos simples.",
+    "Expresar preferencia: 'I prefer...' / 'I like ... better'.",
+    "Dar una opinión corta con una razón."
+  ],
+  "grammarFocus": "Comparativos: bigger/smaller, cheaper/more expensive, better/worse; 'I prefer...'.",
+  "vocabList": [
+    { "en": "bigger", "es": "más grande" },
+    { "en": "smaller", "es": "más pequeño" },
+    { "en": "cheaper", "es": "más barato" },
+    { "en": "more expensive", "es": "más caro" },
+    { "en": "better", "es": "mejor" },
+    { "en": "worse", "es": "peor" },
+    { "en": "than", "es": "que" },
+    { "en": "I prefer...", "es": "Prefiero..." },
+    { "en": "I like ... better", "es": "Me gusta más ..." },
+    { "en": "because", "es": "porque" },
+    { "en": "price", "es": "precio" },
+    { "en": "quality", "es": "calidad" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "This phone is cheaper than that one." },
+    { "speaker": "B", "text": "Yes, but the other one is better." },
+    { "speaker": "A", "text": "I prefer the cheaper one because it's enough for me." },
+    { "speaker": "B", "text": "That makes sense." }
+  ],
+  "targetPhrases": [
+    "This phone is cheaper than that one.",
+    "The other one is better.",
+    "I prefer the cheaper one.",
+    "I like this one better.",
+    "Because it's cheaper."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct comparative:",
+        "options": ["more cheap", "cheaper", "cheapest"],
+        "answerIndex": 1,
+        "explanationEs": "cheap → cheaper."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Complete: This is bigger ____ that.",
+        "options": ["then", "than", "that"],
+        "answerIndex": 1,
+        "explanationEs": "Comparación: bigger than."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick a preference sentence:",
+        "options": ["I prefer the cheaper one.", "I have a reservation.", "It's rainy today."],
+        "answerIndex": 0,
+        "explanationEs": "'I prefer...' expresa preferencia."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "This one is ____ than that one.", "answer": "cheaper", "explanationEs": "cheap → cheaper." },
+      { "id": "fib-2", "sentenceEn": "The other one is ____.", "answer": "better", "explanationEs": "good → better." },
+      { "id": "fib-3", "sentenceEn": "I prefer this one ____ it's cheaper.", "answer": "because", "explanationEs": "because = porque." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["prefer", "I", "the", "cheaper", "one"], "answer": ["I", "prefer", "the", "cheaper", "one"], "translationEs": "Prefiero el más barato." },
+      { "id": "rw-2", "words": ["is", "than", "cheaper", "This", "that"], "answer": ["This", "is", "cheaper", "than", "that"], "translationEs": "Esto es más barato que eso." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You compare two options (phones, plans, or products) and say which one you prefer.",
+    "promptsEn": [
+      "Compare two things with 'cheaper/better than'.",
+      "Say what you prefer.",
+      "Give a short reason with 'because'."
+    ]
+  }
+}
+

@@ -1,0 +1,85 @@
+{
+  "id": "a2-14-work-meeting",
+  "titleEn": "Work: Simple Meeting Language",
+  "titleEs": "Trabajo: frases para una reunión",
+  "level": "A2",
+  "topic": "Work",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Usar frases simples para colaborar en una reunión.",
+    "Pedir aclaración y confirmar tareas.",
+    "Hacer solicitudes educadas con 'Could you...?'"
+  ],
+  "grammarFocus": "Peticiones: 'Could you...?' / 'Can you...?' y frases para acordar: 'Let's...' / 'I think...'.",
+  "vocabList": [
+    { "en": "meeting", "es": "reunión" },
+    { "en": "project", "es": "proyecto" },
+    { "en": "deadline", "es": "fecha límite" },
+    { "en": "task", "es": "tarea" },
+    { "en": "Could you...?", "es": "¿Podrías...?" },
+    { "en": "Can you...?", "es": "¿Puedes...?" },
+    { "en": "Let's...", "es": "Hagamos..." },
+    { "en": "I think...", "es": "Creo que..." },
+    { "en": "sounds good", "es": "suena bien" },
+    { "en": "to confirm", "es": "confirmar" },
+    { "en": "to share", "es": "compartir" },
+    { "en": "notes", "es": "notas" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Let's start the meeting." },
+    { "speaker": "B", "text": "Sure. What's the deadline for this project?" },
+    { "speaker": "A", "text": "It's Friday. Could you share the notes after the meeting?" },
+    { "speaker": "B", "text": "Yes, of course. Sounds good." }
+  ],
+  "targetPhrases": [
+    "Let's start the meeting.",
+    "What's the deadline?",
+    "The deadline is Friday.",
+    "Could you share the notes?",
+    "Sounds good.",
+    "Let me confirm."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the polite request:",
+        "options": ["Share the notes.", "Could you share the notes?", "You share notes."],
+        "answerIndex": 1,
+        "explanationEs": "Para pedir de forma educada: Could you...?"
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which word means 'fecha límite'?",
+        "options": ["deadline", "project", "meeting"],
+        "answerIndex": 0,
+        "explanationEs": "deadline = fecha límite."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Complete: Let's ____ the meeting.",
+        "options": ["start", "starting", "starts"],
+        "answerIndex": 0,
+        "explanationEs": "Let's + verbo base."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Could you ____ the notes?", "answer": "share", "explanationEs": "share = compartir." },
+      { "id": "fib-2", "sentenceEn": "The ____ is Friday.", "answer": "deadline", "explanationEs": "deadline = fecha límite." },
+      { "id": "fib-3", "sentenceEn": "Let's ____.", "answer": "start", "explanationEs": "Let's start = empecemos." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["the", "What's", "deadline"], "answer": ["What's", "the", "deadline"], "translationEs": "¿Cuál es la fecha límite?" },
+      { "id": "rw-2", "words": ["you", "Could", "share", "notes", "the"], "answer": ["Could", "you", "share", "the", "notes"], "translationEs": "¿Podrías compartir las notas?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are in a short meeting. Ask about the deadline and request a small action.",
+    "promptsEn": [
+      "Ask about the deadline.",
+      "Make one polite request with 'Could you...?'",
+      "Agree: 'Sounds good.'"
+    ]
+  }
+}
+

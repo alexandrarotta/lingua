@@ -1,0 +1,83 @@
+{
+  "id": "it-a2-13-health",
+  "titleEn": "Salute: sintomi e consigli",
+  "titleEs": "Salud: síntomas y consejos",
+  "level": "A2",
+  "topic": "Health",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Describir síntomas comunes.",
+    "Pedir ayuda o consejo básico.",
+    "Dar consejos simples (deberías...)."
+  ],
+  "grammarFocus": "Expresar dolor: 'Mi fa male...' / 'Ho...' (febbre). Consejos: 'Dovresti...' / 'Ti consiglio di...'.",
+  "vocabList": [
+    { "en": "Mi fa male la testa", "es": "Me duele la cabeza" },
+    { "en": "Mi fa male la gola", "es": "Me duele la garganta" },
+    { "en": "Ho la febbre", "es": "Tengo fiebre" },
+    { "en": "Ho la tosse", "es": "Tengo tos" },
+    { "en": "Dovresti riposare", "es": "Deberías descansar" },
+    { "en": "Ti consiglio di...", "es": "Te aconsejo..." },
+    { "en": "un medico", "es": "un médico" },
+    { "en": "una farmacia", "es": "una farmacia" },
+    { "en": "una medicina", "es": "un medicamento" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Come stai?" },
+    { "speaker": "B", "text": "Non molto bene. Ho la febbre e mi fa male la testa." },
+    { "speaker": "A", "text": "Mi dispiace. Dovresti riposare e bere acqua." },
+    { "speaker": "B", "text": "Grazie. Vado in farmacia." }
+  ],
+  "targetPhrases": [
+    "Non mi sento bene.",
+    "Ho la febbre.",
+    "Ho la tosse.",
+    "Mi fa male la testa.",
+    "Mi fa male la gola.",
+    "Dovresti riposare.",
+    "Ti consiglio di bere acqua."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la frase per dire 'Me duele la cabeza':",
+        "options": ["Ho la testa.", "Mi fa male la testa.", "Sono testa."],
+        "answerIndex": 1,
+        "explanationEs": "Mi fa male la testa = me duele la cabeza."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale significa 'Deberías descansar'?",
+        "options": ["Dovresti riposare.", "Puoi riposare?", "Riposare!"],
+        "answerIndex": 0,
+        "explanationEs": "Dovresti... = deberías..."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Dove vai per comprare medicine?",
+        "options": ["in farmacia", "al cinema", "in hotel"],
+        "answerIndex": 0,
+        "explanationEs": "Farmacia = farmacia."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Ho la ____.", "answer": "febbre", "explanationEs": "Febbre = fiebre." },
+      { "id": "fib-2", "sentenceEn": "Mi fa male la ____.", "answer": "testa", "explanationEs": "Testa = cabeza." },
+      { "id": "fib-3", "sentenceEn": "Dovresti ____.", "answer": "riposare", "explanationEs": "Riposare = descansar." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["male", "Mi", "fa", "la", "gola"], "answer": ["Mi", "fa", "male", "la", "gola"], "translationEs": "Me duele la garganta." },
+      { "id": "rw-2", "words": ["riposare", "Dovresti"], "answer": ["Dovresti", "riposare"], "translationEs": "Deberías descansar." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Non ti senti bene. Spiega i sintomi e chiedi un consiglio.",
+    "promptsEn": [
+      "Di' come stai e descrivi un sintomo.",
+      "Chiedi cosa puoi fare.",
+      "Rispondi con un consiglio semplice (dovresti...)."
+    ]
+  }
+}
+

@@ -1,0 +1,113 @@
+{
+  "id": "a1-01-greetings",
+  "titleEn": "Greetings and Introductions",
+  "titleEs": "Saludos y presentaciones",
+  "level": "A1",
+  "topic": "Introductions",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Saludar y presentarte de forma simple.",
+    "Preguntar y decir tu nombre.",
+    "Preguntar y decir de dónde eres."
+  ],
+  "grammarFocus": "Verbo 'to be' (am/is/are) y preguntas cortas: 'What's your name?' / 'Where are you from?'",
+  "vocabList": [
+    { "en": "Hi", "es": "Hola" },
+    { "en": "Hello", "es": "Hola" },
+    { "en": "Good morning", "es": "Buenos días" },
+    { "en": "Good evening", "es": "Buenas tardes/noches" },
+    { "en": "I'm...", "es": "Soy... / Estoy..." },
+    { "en": "My name is...", "es": "Mi nombre es..." },
+    { "en": "Nice to meet you", "es": "Encantado/a" },
+    { "en": "Where are you from?", "es": "¿De dónde eres?" },
+    { "en": "I'm from...", "es": "Soy de..." },
+    { "en": "How about you?", "es": "¿Y tú?" },
+    { "en": "Thanks", "es": "Gracias" },
+    { "en": "See you", "es": "Nos vemos" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hi! I'm Ana. What's your name?" },
+    { "speaker": "B", "text": "Hello, Ana. My name is Mark. Nice to meet you." },
+    { "speaker": "A", "text": "Nice to meet you too. Where are you from?" },
+    { "speaker": "B", "text": "I'm from Mexico. How about you?" },
+    { "speaker": "A", "text": "I'm from Spain." }
+  ],
+  "targetPhrases": [
+    { "text": "Hi, I'm Ana.", "ipa": "/haɪ aɪm ˈænə/" },
+    "What's your name?",
+    "My name is Mark.",
+    "Nice to meet you.",
+    "Nice to meet you too.",
+    "Where are you from?",
+    "I'm from Mexico.",
+    "How about you?",
+    "See you later."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose a greeting for the morning:",
+        "options": ["Good night", "Good morning", "Goodbye"],
+        "answerIndex": 1,
+        "explanationEs": "En la mañana se usa 'Good morning'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Complete the sentence: My name ___ Mark.",
+        "options": ["am", "is", "are"],
+        "answerIndex": 1,
+        "explanationEs": "Con 'My name' usamos 'is'."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Which question asks about origin?",
+        "options": ["Where are you from?", "How old are you?", "What's your phone number?"],
+        "answerIndex": 0,
+        "explanationEs": "'Where are you from?' pregunta de dónde eres."
+      }
+    ],
+    "fillInTheBlank": [
+      {
+        "id": "fib-1",
+        "sentenceEn": "Nice to ____ you.",
+        "answer": "meet",
+        "explanationEs": "La frase fija es: Nice to meet you."
+      },
+      {
+        "id": "fib-2",
+        "sentenceEn": "I'm ____ Spain.",
+        "answer": "from",
+        "explanationEs": "Para decir origen: I'm from + lugar."
+      },
+      {
+        "id": "fib-3",
+        "sentenceEn": "What's your ____?",
+        "answer": "name",
+        "explanationEs": "Para preguntar nombre: What's your name?"
+      }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["from", "I", "am", "Mexico"],
+        "answer": ["I", "am", "from", "Mexico"],
+        "translationEs": "Soy de México."
+      },
+      {
+        "id": "rw-2",
+        "words": ["name", "is", "My", "Ana"],
+        "answer": ["My", "name", "is", "Ana"],
+        "translationEs": "Mi nombre es Ana."
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You meet someone at a coffee shop. Say hello, introduce yourself, and ask where they are from.",
+    "promptsEn": [
+      "Say hello and introduce yourself.",
+      "Ask their name and where they are from.",
+      "Say goodbye politely."
+    ]
+  }
+}

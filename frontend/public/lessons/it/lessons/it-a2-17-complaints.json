@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-17-complaints",
+  "titleEn": "Lamentele e problemi",
+  "titleEs": "Quejas y problemas",
+  "level": "A2",
+  "topic": "Problems",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Explicar un problema de forma clara.",
+    "Pedir una solución (cambio/reembolso).",
+    "Usar frases educadas al quejarte."
+  ],
+  "grammarFocus": "Frases: 'C'è un problema...', 'Non funziona', 'Vorrei...', 'Possiamo...?'",
+  "vocabList": [
+    { "en": "Mi scusi", "es": "Disculpe" },
+    { "en": "C'è un problema", "es": "Hay un problema" },
+    { "en": "Non funziona", "es": "No funciona" },
+    { "en": "È rotto", "es": "Está roto" },
+    { "en": "Vorrei un cambio", "es": "Quisiera un cambio" },
+    { "en": "Vorrei un rimborso", "es": "Quisiera un reembolso" },
+    { "en": "Può aiutarmi?", "es": "¿Puede ayudarme?" },
+    { "en": "Grazie", "es": "Gracias" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Mi scusi, c'è un problema con questo." },
+    { "speaker": "B", "text": "Mi dispiace. Cosa succede?" },
+    { "speaker": "A", "text": "Non funziona. È rotto." },
+    { "speaker": "B", "text": "Capisco. Vuole un cambio o un rimborso?" }
+  ],
+  "targetPhrases": [
+    "Mi scusi, c'è un problema.",
+    "Non funziona.",
+    "È rotto.",
+    "Vorrei un cambio.",
+    "Vorrei un rimborso.",
+    "Può aiutarmi?",
+    "Grazie."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale frase significa 'No funciona'?",
+        "options": ["Non funziona.", "Non ho fame.", "Non sono sicuro."],
+        "answerIndex": 0,
+        "explanationEs": "Non funziona = no funciona."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli la richiesta educata:",
+        "options": ["Aiutami!", "Può aiutarmi?", "Tu aiuti me."],
+        "answerIndex": 1,
+        "explanationEs": "Può aiutarmi? es más educado."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quale è una possibile soluzione?",
+        "options": ["un cambio", "una colazione", "un gatto"],
+        "answerIndex": 0,
+        "explanationEs": "Cambio = cambio (de producto)."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "C'è un ____.", "answer": "problema", "explanationEs": "Problema = problema." },
+      { "id": "fib-2", "sentenceEn": "Non ____.", "answer": "funziona", "explanationEs": "Non funziona = no funciona." },
+      { "id": "fib-3", "sentenceEn": "Vorrei un ____.", "answer": "rimborso", "explanationEs": "Rimborso = reembolso." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["un", "problema", "C'è"], "answer": ["C'è", "un", "problema"], "translationEs": "Hay un problema." },
+      { "id": "rw-2", "words": ["funziona", "Non"], "answer": ["Non", "funziona"], "translationEs": "No funciona." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Hai un problema con un prodotto o un servizio. Spiega il problema e chiedi una soluzione.",
+    "promptsEn": [
+      "Inizia con una frase educata (Mi scusi...).",
+      "Spiega cosa non funziona.",
+      "Chiedi un cambio o un rimborso."
+    ]
+  }
+}
+

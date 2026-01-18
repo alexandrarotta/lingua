@@ -1,0 +1,111 @@
+{
+  "id": "ru-a1-01-greetings",
+  "titleEn": "Приветствия и знакомства",
+  "titleEs": "Saludos y presentaciones",
+  "level": "A1",
+  "topic": "Introductions",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Saludar y presentarte de forma simple en ruso.",
+    "Preguntar y decir tu nombre.",
+    "Preguntar y decir de dónde eres."
+  ],
+  "grammarFocus": "Frases básicas: «Меня зовут…» (Me llamo…), «Как тебя зовут?» (¿Cómo te llamas?), «Откуда ты?» (¿De dónde eres?)",
+  "vocabList": [
+    { "en": "Привет", "es": "Hola (informal)" },
+    { "en": "Здравствуйте", "es": "Hola (formal)" },
+    { "en": "Меня зовут...", "es": "Me llamo..." },
+    { "en": "Как тебя зовут?", "es": "¿Cómo te llamas?" },
+    { "en": "Очень приятно!", "es": "¡Mucho gusto!" },
+    { "en": "Откуда ты?", "es": "¿De dónde eres?" },
+    { "en": "Я из...", "es": "Soy de..." },
+    { "en": "А ты?", "es": "¿Y tú?" },
+    { "en": "Спасибо", "es": "Gracias" },
+    { "en": "Пока", "es": "Chao (informal)" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Привет! Меня зовут Ана. А как тебя зовут?" },
+    { "speaker": "B", "text": "Привет, Ана. Меня зовут Марк. Очень приятно!" },
+    { "speaker": "A", "text": "Очень приятно! Откуда ты?" },
+    { "speaker": "B", "text": "Я из Мексики. А ты?" },
+    { "speaker": "A", "text": "Я из Испании." }
+  ],
+  "targetPhrases": [
+    "Привет, меня зовут Ана.",
+    "Как тебя зовут?",
+    "Меня зовут Марк.",
+    "Очень приятно!",
+    "Откуда ты?",
+    "Я из Мексики.",
+    "А ты?",
+    "Пока."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Выбери приветствие (неформально):",
+        "options": ["Привет", "Спасибо", "Пожалуйста"],
+        "answerIndex": 0,
+        "explanationEs": "Para saludar informalmente: «Привет»."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Как сказать «Me llamo Ana»?",
+        "options": ["Меня зовут Ана", "Я из Ана", "Как тебя зовут Ана"],
+        "answerIndex": 0,
+        "explanationEs": "«Меня зовут…» significa «Me llamo…»."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Какая фраза спрашивает откуда ты?",
+        "options": ["Откуда ты?", "Как тебя зовут?", "Сколько тебе лет?"],
+        "answerIndex": 0,
+        "explanationEs": "«Откуда ты?» pregunta de dónde eres."
+      }
+    ],
+    "fillInTheBlank": [
+      {
+        "id": "fib-1",
+        "sentenceEn": "Меня ____ Марк.",
+        "answer": "зовут",
+        "explanationEs": "Para decir «Me llamo»: Меня зовут + nombre."
+      },
+      {
+        "id": "fib-2",
+        "sentenceEn": "Я ____ Испании.",
+        "answer": "из",
+        "explanationEs": "Para decir origen: Я из + lugar."
+      },
+      {
+        "id": "fib-3",
+        "sentenceEn": "А ____?",
+        "answer": "ты",
+        "explanationEs": "Para decir «¿y tú?»: А ты?"
+      }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["зовут", "Меня", "Ана"],
+        "answer": ["Меня", "зовут", "Ана"],
+        "translationEs": "Me llamo Ana."
+      },
+      {
+        "id": "rw-2",
+        "words": ["ты", "Откуда"],
+        "answer": ["Откуда", "ты"],
+        "translationEs": "¿De dónde eres?"
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Ты встречаешь человека в кафе. Поздоровайся, представься и спроси откуда он/она.",
+    "promptsEn": [
+      "Поздоровайся и представься.",
+      "Спроси имя и откуда он/она.",
+      "Попрощайся вежливо."
+    ]
+  }
+}
+

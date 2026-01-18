@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-08-hotel",
+  "titleEn": "Check-in in hotel",
+  "titleEs": "Check-in en hotel",
+  "level": "A1",
+  "topic": "Travel",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hacer check-in en un hotel con frases simples.",
+    "Pedir una habitación y entender información básica.",
+    "Preguntar por horario y Wi‑Fi."
+  ],
+  "grammarFocus": "Frases útiles: 'Ho una prenotazione', 'Vorrei una camera...', 'A che ora...?'",
+  "vocabList": [
+    { "en": "Ho una prenotazione", "es": "Tengo una reserva" },
+    { "en": "una camera singola", "es": "una habitación individual" },
+    { "en": "una camera doppia", "es": "una habitación doble" },
+    { "en": "documento", "es": "documento" },
+    { "en": "chiave", "es": "llave" },
+    { "en": "Wi‑Fi", "es": "Wi‑Fi" },
+    { "en": "colazione", "es": "desayuno" },
+    { "en": "A che ora è la colazione?", "es": "¿A qué hora es el desayuno?" },
+    { "en": "Dov'è l'ascensore?", "es": "¿Dónde está el ascensor?" },
+    { "en": "Grazie", "es": "Gracias" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Buonasera. Ho una prenotazione a nome Rossi." },
+    { "speaker": "B", "text": "Benissimo. Un documento, per favore." },
+    { "speaker": "A", "text": "Ecco. A che ora è la colazione?" },
+    { "speaker": "B", "text": "Dalle 7 alle 10. Ecco la chiave e la password Wi‑Fi." }
+  ],
+  "targetPhrases": [
+    "Ho una prenotazione.",
+    "Vorrei una camera singola.",
+    "Un documento, per favore.",
+    "A che ora è la colazione?",
+    "Qual è la password del Wi‑Fi?",
+    "Dov'è l'ascensore?",
+    "Grazie."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale frase usi per dire 'Tengo una reserva'?",
+        "options": ["Ho una prenotazione.", "Ho una pizza.", "Ho un problema."],
+        "answerIndex": 0,
+        "explanationEs": "Ho una prenotazione = tengo una reserva."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli la domanda sull'orario:",
+        "options": ["A che ora è la colazione?", "Come ti chiami?", "Di dove sei?"],
+        "answerIndex": 0,
+        "explanationEs": "A che ora...? pregunta la hora."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quale parola significa 'llave'?",
+        "options": ["chiave", "camera", "colazione"],
+        "answerIndex": 0,
+        "explanationEs": "Chiave = llave."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Ho una ____.", "answer": "prenotazione", "explanationEs": "Prenotazione = reserva." },
+      { "id": "fib-2", "sentenceEn": "Vorrei una camera ____.", "answer": "singola", "explanationEs": "Singola = individual." },
+      { "id": "fib-3", "sentenceEn": "Qual è la password del ____?", "answer": "Wi‑Fi", "explanationEs": "Wi‑Fi = Wi‑Fi." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["una", "prenotazione", "Ho"], "answer": ["Ho", "una", "prenotazione"], "translationEs": "Tengo una reserva." },
+      { "id": "rw-2", "words": ["ora", "che", "A", "colazione", "è", "la"], "answer": ["A", "che", "ora", "è", "la", "colazione"], "translationEs": "¿A qué hora es el desayuno?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Arrivi in hotel. Fai il check-in e chiedi informazioni base.",
+    "promptsEn": [
+      "Di' che hai una prenotazione e il tuo nome.",
+      "Chiedi la colazione e il Wi‑Fi.",
+      "Chiedi dove è l'ascensore e ringrazia."
+    ]
+  }
+}
+

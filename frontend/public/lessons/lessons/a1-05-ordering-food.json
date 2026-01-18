@@ -1,0 +1,85 @@
+{
+  "id": "a1-05-ordering-food",
+  "titleEn": "Ordering Food",
+  "titleEs": "Pedir comida",
+  "level": "A1",
+  "topic": "Food",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Pedir comida y bebida de forma educada.",
+    "Usar 'I'd like...' y 'Can I have...?'",
+    "Pedir la cuenta."
+  ],
+  "grammarFocus": "Peticiones educadas: 'I'd like...' / 'Can I have...?' / 'Could I get...?'",
+  "vocabList": [
+    { "en": "menu", "es": "menú" },
+    { "en": "water", "es": "agua" },
+    { "en": "coffee", "es": "café" },
+    { "en": "tea", "es": "té" },
+    { "en": "sandwich", "es": "sándwich" },
+    { "en": "salad", "es": "ensalada" },
+    { "en": "I'd like...", "es": "Me gustaría..." },
+    { "en": "Can I have...?", "es": "¿Me puede traer...?" },
+    { "en": "Please", "es": "Por favor" },
+    { "en": "Thank you", "es": "Gracias" },
+    { "en": "the bill", "es": "la cuenta" },
+    { "en": "Anything else?", "es": "¿Algo más?" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hello! Can I have a coffee, please?" },
+    { "speaker": "B", "text": "Sure. Anything else?" },
+    { "speaker": "A", "text": "I'd like a sandwich, please." },
+    { "speaker": "B", "text": "No problem. Here you go." },
+    { "speaker": "A", "text": "Thank you." }
+  ],
+  "targetPhrases": [
+    "Can I have a coffee, please?",
+    "I'd like a sandwich, please.",
+    "Anything else?",
+    "That's all, thank you.",
+    "Can I have the bill, please?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose a polite order:",
+        "options": ["Give me coffee.", "Coffee now.", "Can I have a coffee, please?"],
+        "answerIndex": 2,
+        "explanationEs": "La forma educada incluye 'Can I have...' y 'please'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "What does 'the bill' mean?",
+        "options": ["La mesa", "La cuenta", "El menú"],
+        "answerIndex": 1,
+        "explanationEs": "'the bill' = la cuenta."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Complete: I'd like ____ salad.",
+        "options": ["a", "an", "the"],
+        "answerIndex": 0,
+        "explanationEs": "Para algo indefinido: a/an. 'salad' suele ir con 'a' en este contexto."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Can I have a ____ , please?", "answer": "coffee", "explanationEs": "Ejemplo: coffee/tea/water." },
+      { "id": "fib-2", "sentenceEn": "____ else?", "answer": "Anything", "explanationEs": "Anything else? = ¿Algo más?" },
+      { "id": "fib-3", "sentenceEn": "Can I have the ____ , please?", "answer": "bill", "explanationEs": "the bill = la cuenta." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["have", "I", "can", "water", "please", "some"], "answer": ["Can", "I", "have", "some", "water", "please"], "translationEs": "¿Me puede traer agua, por favor?" },
+      { "id": "rw-2", "words": ["like", "I'd", "a", "sandwich"], "answer": ["I'd", "like", "a", "sandwich"], "translationEs": "Me gustaría un sándwich." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You order at a café. Ask for a drink and a simple meal politely.",
+    "promptsEn": [
+      "Order a drink politely.",
+      "Order one food item politely.",
+      "Ask for the bill."
+    ]
+  }
+}
+

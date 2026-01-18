@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-19-storytelling",
+  "titleEn": "Raccontare una storia: poi/perché",
+  "titleEs": "Contar una historia: then/because",
+  "level": "A2",
+  "topic": "Stories",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Contar una historia corta con conectores simples.",
+    "Usar 'poi', 'dopo', 'perché', 'quindi'.",
+    "Hacer preguntas sencillas sobre una historia."
+  ],
+  "grammarFocus": "Conectores: poi/dopo/perché/quindi. Pasado simple (passato prossimo) en frases cortas.",
+  "vocabList": [
+    { "en": "prima", "es": "primero" },
+    { "en": "poi", "es": "luego" },
+    { "en": "dopo", "es": "después" },
+    { "en": "perché", "es": "porque" },
+    { "en": "quindi", "es": "así que / entonces" },
+    { "en": "alla fine", "es": "al final" },
+    { "en": "È successo", "es": "Pasó" },
+    { "en": "Ho perso", "es": "Perdí" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Com'è andata la tua giornata?" },
+    { "speaker": "B", "text": "Prima sono andato al lavoro. Poi ho perso l'autobus, quindi sono arrivato tardi." },
+    { "speaker": "A", "text": "Perché hai perso l'autobus?" },
+    { "speaker": "B", "text": "Perché sono uscito di casa tardi. Alla fine è andata bene." }
+  ],
+  "targetPhrases": [
+    "Prima sono andato/a...",
+    "Poi ho...",
+    "Dopo ho...",
+    "Perché...",
+    "Quindi...",
+    "Alla fine...",
+    "È successo che..."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli il connettore per dire 'porque':",
+        "options": ["perché", "poi", "dopo"],
+        "answerIndex": 0,
+        "explanationEs": "Perché = porque."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale significa 'luego'?",
+        "options": ["prima", "poi", "alla fine"],
+        "answerIndex": 1,
+        "explanationEs": "Poi = luego."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli 'así que/entonces':",
+        "options": ["quindi", "perché", "dopo"],
+        "answerIndex": 0,
+        "explanationEs": "Quindi = así que/entonces."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Prima ____ andato/a al lavoro.", "answer": "sono", "explanationEs": "Sono andato/a = fui." },
+      { "id": "fib-2", "sentenceEn": "Ho perso l'autobus, ____ sono arrivato tardi.", "answer": "quindi", "explanationEs": "Quindi = así que." },
+      { "id": "fib-3", "sentenceEn": "Sono arrivato tardi ____ ho perso l'autobus.", "answer": "perché", "explanationEs": "Perché = porque." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["Poi", "ho", "mangiato"], "answer": ["Poi", "ho", "mangiato"], "translationEs": "Luego comí." },
+      { "id": "rw-2", "words": ["fine", "Alla", "bene", "è", "andata"], "answer": ["Alla", "fine", "è", "andata", "bene"], "translationEs": "Al final fue bien." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Racconta una piccola storia (una giornata, un problema, un viaggio) usando connettori.",
+    "promptsEn": [
+      "Racconta 3 eventi in ordine (prima/poi/dopo).",
+      "Spiega una causa (perché...) e una conseguenza (quindi...).",
+      "Chiudi con 'alla fine...' e chiedi una domanda."
+    ]
+  }
+}
+

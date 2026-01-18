@@ -1,0 +1,85 @@
+{
+  "id": "a2-17-complaints",
+  "titleEn": "Complaints and Problems",
+  "titleEs": "Quejas y problemas",
+  "level": "A2",
+  "topic": "Problems",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Explicar un problema de forma clara y educada.",
+    "Pedir ayuda: 'Could you help me?'",
+    "Usar frases útiles: 'There's a problem with...'."
+  ],
+  "grammarFocus": "Frases de problema: 'There's a problem with...' y peticiones: 'Could you...?'",
+  "vocabList": [
+    { "en": "problem", "es": "problema" },
+    { "en": "broken", "es": "roto" },
+    { "en": "doesn't work", "es": "no funciona" },
+    { "en": "refund", "es": "reembolso" },
+    { "en": "exchange", "es": "cambio" },
+    { "en": "receipt", "es": "recibo" },
+    { "en": "There's a problem with...", "es": "Hay un problema con..." },
+    { "en": "It doesn't work", "es": "No funciona" },
+    { "en": "Could you help me?", "es": "¿Podrías ayudarme?" },
+    { "en": "I'm sorry", "es": "Lo siento" },
+    { "en": "What happened?", "es": "¿Qué pasó?" },
+    { "en": "solution", "es": "solución" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hi. There's a problem with this phone." },
+    { "speaker": "B", "text": "I'm sorry. What happened?" },
+    { "speaker": "A", "text": "It doesn't work. Could you help me?" },
+    { "speaker": "B", "text": "Sure. Do you have the receipt?" }
+  ],
+  "targetPhrases": [
+    "There's a problem with this phone.",
+    "It doesn't work.",
+    "Could you help me?",
+    "Do you have the receipt?",
+    "I want a refund.",
+    "Can I exchange it?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the best complaint sentence:",
+        "options": ["Problem phone.", "There's a problem with this phone.", "This phone problem."],
+        "answerIndex": 1,
+        "explanationEs": "Frase completa: There's a problem with..."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which means 'no funciona'?",
+        "options": ["It's included", "It doesn't work", "It's windy"],
+        "answerIndex": 1,
+        "explanationEs": "It doesn't work = no funciona."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick a polite request:",
+        "options": ["Help me.", "Could you help me?", "You help me."],
+        "answerIndex": 1,
+        "explanationEs": "Could you... = forma educada."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "There's a ____ with this item.", "answer": "problem", "explanationEs": "problem = problema." },
+      { "id": "fib-2", "sentenceEn": "It doesn't ____.", "answer": "work", "explanationEs": "It doesn't work." },
+      { "id": "fib-3", "sentenceEn": "Do you have the ____?", "answer": "receipt", "explanationEs": "receipt = recibo." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["help", "Could", "me", "you"], "answer": ["Could", "you", "help", "me"], "translationEs": "¿Podrías ayudarme?" },
+      { "id": "rw-2", "words": ["doesn't", "It", "work"], "answer": ["It", "doesn't", "work"], "translationEs": "No funciona." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You bought something that doesn't work. Explain the problem and ask for a solution.",
+    "promptsEn": [
+      "Say: There's a problem with...",
+      "Say: It doesn't work.",
+      "Ask for help politely."
+    ]
+  }
+}
+

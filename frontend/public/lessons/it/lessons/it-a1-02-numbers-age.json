@@ -1,0 +1,86 @@
+{
+  "id": "it-a1-02-numbers-age",
+  "titleEn": "Numeri ed età",
+  "titleEs": "Números y edad",
+  "level": "A1",
+  "topic": "Numbers",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Preguntar y decir la edad.",
+    "Decir números básicos (1–20) en contexto.",
+    "Pedir que repitan información (por claridad)."
+  ],
+  "grammarFocus": "Preguntas con 'Quanti anni hai?' y respuesta: 'Ho ... anni.'",
+  "vocabList": [
+    { "en": "Quanti anni hai?", "es": "¿Cuántos años tienes?" },
+    { "en": "Ho ... anni", "es": "Tengo ... años" },
+    { "en": "uno", "es": "uno" },
+    { "en": "due", "es": "dos" },
+    { "en": "tre", "es": "tres" },
+    { "en": "quattro", "es": "cuatro" },
+    { "en": "cinque", "es": "cinco" },
+    { "en": "dieci", "es": "diez" },
+    { "en": "venti", "es": "veinte" },
+    { "en": "numero di telefono", "es": "número de teléfono" },
+    { "en": "Puoi ripetere?", "es": "¿Puedes repetir?" },
+    { "en": "lentamente", "es": "despacio" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Ciao! Quanti anni hai?" },
+    { "speaker": "B", "text": "Ho ventuno anni." },
+    { "speaker": "A", "text": "Ah, capisco. Puoi ripeterlo lentamente?" },
+    { "speaker": "B", "text": "Certo. Ventuno." }
+  ],
+  "targetPhrases": [
+    "Quanti anni hai?",
+    "Ho ventuno anni.",
+    "Ho venticinque anni.",
+    "Puoi ripetere?",
+    "Puoi dirlo lentamente?",
+    "Certo.",
+    "Ho diciotto anni."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale domanda chiede l'età?",
+        "options": ["Di dove sei?", "Quanti anni hai?", "Come ti chiami?"],
+        "answerIndex": 1,
+        "explanationEs": "'Quanti anni hai?' pregunta la edad."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Scegli la risposta migliore: Quanti anni hai? — Ho ____ anni.",
+        "options": ["venti", "di", "nome"],
+        "answerIndex": 0,
+        "explanationEs": "En esa estructura va un número."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli la richiesta educata:",
+        "options": ["Ripeti!", "Puoi ripetere, per favore?", "Tu ripeti."],
+        "answerIndex": 1,
+        "explanationEs": "La forma educada es 'Puoi... per favore?'."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Ho ____ anni.", "answer": "venti", "explanationEs": "Ejemplo: Ho venti anni." },
+      { "id": "fib-2", "sentenceEn": "Puoi ____?", "answer": "ripetere", "explanationEs": "Frase fija: Puoi ripetere?" },
+      { "id": "fib-3", "sentenceEn": "Puoi dirlo ____?", "answer": "lentamente", "explanationEs": "Para pedir: Puoi dirlo lentamente?" }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["anni", "Quanti", "hai"], "answer": ["Quanti", "anni", "hai"], "translationEs": "¿Cuántos años tienes?" },
+      { "id": "rw-2", "words": ["anni", "Ho", "venti"], "answer": ["Ho", "venti", "anni"], "translationEs": "Tengo veinte años." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Incontri un compagno di classe. Chiedi l'età e di' la tua.",
+    "promptsEn": [
+      "Chiedi l'età.",
+      "Di' la tua età.",
+      "Chiedi di ripetere un numero lentamente."
+    ]
+  }
+}
+

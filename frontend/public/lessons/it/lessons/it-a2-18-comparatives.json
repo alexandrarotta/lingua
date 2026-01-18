@@ -1,0 +1,83 @@
+{
+  "id": "it-a2-18-comparatives",
+  "titleEn": "Comparativi e preferenze",
+  "titleEs": "Comparativos y preferencias",
+  "level": "A2",
+  "topic": "Opinions",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Comparar dos cosas de forma simple (más/menos).",
+    "Expresar preferencias (prefiero...).",
+    "Preguntar por la opinión de alguien."
+  ],
+  "grammarFocus": "Comparativos: più ... di / meno ... di. Preferencias: preferisco...",
+  "vocabList": [
+    { "en": "più ... di", "es": "más ... que" },
+    { "en": "meno ... di", "es": "menos ... que" },
+    { "en": "meglio", "es": "mejor" },
+    { "en": "peggio", "es": "peor" },
+    { "en": "Preferisco...", "es": "Prefiero..." },
+    { "en": "Quale preferisci?", "es": "¿Cuál prefieres?" },
+    { "en": "caro", "es": "caro" },
+    { "en": "economico", "es": "barato" },
+    { "en": "interessante", "es": "interesante" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Preferisci il treno o l'autobus?" },
+    { "speaker": "B", "text": "Preferisco il treno. È più veloce." },
+    { "speaker": "A", "text": "Sì, ma è più caro." },
+    { "speaker": "B", "text": "Vero. L'autobus è più economico." }
+  ],
+  "targetPhrases": [
+    "Preferisco il treno.",
+    "È più veloce.",
+    "È più caro.",
+    "È più economico.",
+    "È meno interessante.",
+    "Quale preferisci?",
+    "Secondo me..."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la frase comparativa corretta:",
+        "options": ["È più veloce di.", "È più veloce.", "È veloce più."],
+        "answerIndex": 1,
+        "explanationEs": "Forma simple: È più + adj."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Come dici 'Prefiero'?",
+        "options": ["Preferisco", "Preferisci", "Preferito"],
+        "answerIndex": 0,
+        "explanationEs": "Preferisco = prefiero."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quale significa 'barato'?",
+        "options": ["caro", "economico", "peggio"],
+        "answerIndex": 1,
+        "explanationEs": "Economico = barato."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "È più ____.", "answer": "caro", "explanationEs": "Caro = caro." },
+      { "id": "fib-2", "sentenceEn": "È meno ____.", "answer": "interessante", "explanationEs": "Interessante = interesante." },
+      { "id": "fib-3", "sentenceEn": "____ il treno.", "answer": "Preferisco", "explanationEs": "Preferisco = prefiero." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["preferisci", "Quale"], "answer": ["Quale", "preferisci"], "translationEs": "¿Cuál prefieres?" },
+      { "id": "rw-2", "words": ["più", "È", "economico"], "answer": ["È", "più", "economico"], "translationEs": "Es más barato." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Parli con un amico e confronti due opzioni (trasporto, hobby, ristorante).",
+    "promptsEn": [
+      "Chiedi quale preferisce.",
+      "Dai la tua preferenza e una ragione (più.../meno...).",
+      "Fai un confronto prezzo/tempo (più caro/più veloce)."
+    ]
+  }
+}
+

@@ -1,0 +1,104 @@
+{
+  "id": "a2-11-past-weekend",
+  "titleEn": "Talking About the Weekend (Past Simple)",
+  "titleEs": "Hablar del fin de semana (pasado simple)",
+  "level": "A2",
+  "topic": "Past",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Contar brevemente qué hiciste el fin de semana.",
+    "Usar pasado simple (regular e irregular básico).",
+    "Hacer preguntas en pasado: 'Did you...?'"
+  ],
+  "grammarFocus": "Pasado simple: 'I visited', 'I went', preguntas: 'Did you go...?'",
+  "vocabList": [
+    { "en": "last weekend", "es": "el fin de semana pasado" },
+    { "en": "yesterday", "es": "ayer" },
+    { "en": "I went", "es": "fui" },
+    { "en": "I did", "es": "hice" },
+    { "en": "I had", "es": "tuve" },
+    { "en": "I visited", "es": "visité" },
+    { "en": "I watched", "es": "vi (una peli/serie)" },
+    { "en": "I cooked", "es": "cociné" },
+    { "en": "Did you...?", "es": "¿Hiciste...?" },
+    { "en": "Yes, I did", "es": "Sí" },
+    { "en": "No, I didn't", "es": "No" },
+    { "en": "It was fun", "es": "Fue divertido" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "How was your weekend?" },
+    { "speaker": "B", "text": "It was fun. I went to the park and I cooked at home." },
+    { "speaker": "A", "text": "Nice! Did you watch a movie?" },
+    { "speaker": "B", "text": "Yes, I did. I watched a comedy." }
+  ],
+  "targetPhrases": [
+    "How was your weekend?",
+    "It was fun.",
+    "I went to the park.",
+    "I cooked at home.",
+    "Did you watch a movie?",
+    "Yes, I did.",
+    "No, I didn't."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the past form of 'go':",
+        "options": ["goed", "went", "goes"],
+        "answerIndex": 1,
+        "explanationEs": "Irregular: go → went."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Pick the correct question in past simple:",
+        "options": ["Did you went to the park?", "Did you go to the park?", "Do you went to the park?"],
+        "answerIndex": 1,
+        "explanationEs": "Con 'Did' usamos verbo base: go."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Choose the correct negative:",
+        "options": ["I didn't watched.", "I didn't watch.", "I don't watched."],
+        "answerIndex": 1,
+        "explanationEs": "Con didn't + verbo base: watch."
+      },
+      {
+        "id": "mcq-4",
+        "questionEn": "Which means 'Fue divertido'?",
+        "options": ["It is fun", "It was fun", "It were fun"],
+        "answerIndex": 1,
+        "explanationEs": "Pasado de 'is' → was."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Last weekend I ____ to the park.", "answer": "went", "explanationEs": "go → went." },
+      { "id": "fib-2", "sentenceEn": "Did you ____ a movie?", "answer": "watch", "explanationEs": "Did + verbo base." },
+      { "id": "fib-3", "sentenceEn": "I didn't ____ at home.", "answer": "cook", "explanationEs": "didn't + verbo base." },
+      { "id": "fib-4", "sentenceEn": "It ____ fun.", "answer": "was", "explanationEs": "Pasado de is/are: was/were." }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["you", "Did", "go", "out", "yesterday"],
+        "answer": ["Did", "you", "go", "out", "yesterday"],
+        "translationEs": "¿Saliste ayer?"
+      },
+      {
+        "id": "rw-2",
+        "words": ["went", "I", "to", "the", "park"],
+        "answer": ["I", "went", "to", "the", "park"],
+        "translationEs": "Fui al parque."
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You talk to a friend about what you did last weekend.",
+    "promptsEn": [
+      "Say one thing you did last weekend.",
+      "Ask them: Did you ...?",
+      "Say if it was fun or relaxing."
+    ]
+  }
+}
+

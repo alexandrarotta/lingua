@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "title": "Lingua A1–A2 Starter Pack",
+  "lessons": [
+    { "id": "a1-01-greetings", "level": "A1", "topic": "Introductions", "titleEn": "Greetings and Introductions", "titleEs": "Saludos y presentaciones", "estimatedMinutes": 7, "prerequisites": [] },
+    { "id": "a1-02-numbers-age", "level": "A1", "topic": "Numbers", "titleEn": "Numbers and Age", "titleEs": "Números y edad", "estimatedMinutes": 7, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-03-family", "level": "A1", "topic": "Family", "titleEn": "Family and Friends", "titleEs": "Familia y amigos", "estimatedMinutes": 8, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-04-daily-routine", "level": "A1", "topic": "Daily routine", "titleEn": "Daily Routine", "titleEs": "Rutina diaria", "estimatedMinutes": 9, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-05-ordering-food", "level": "A1", "topic": "Food", "titleEn": "Ordering Food", "titleEs": "Pedir comida", "estimatedMinutes": 8, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-06-supermarket", "level": "A1", "topic": "Shopping", "titleEn": "At the Supermarket", "titleEs": "En el supermercado", "estimatedMinutes": 8, "prerequisites": ["a1-05-ordering-food"] },
+    { "id": "a1-07-directions", "level": "A1", "topic": "Directions", "titleEn": "Asking for Directions", "titleEs": "Pedir direcciones", "estimatedMinutes": 9, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-08-hotel", "level": "A1", "topic": "Travel", "titleEn": "Hotel Check-in", "titleEs": "Check-in en hotel", "estimatedMinutes": 9, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-09-weather", "level": "A1", "topic": "Weather", "titleEn": "Weather Talk", "titleEs": "Hablar del clima", "estimatedMinutes": 7, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a1-10-hobbies", "level": "A1", "topic": "Free time", "titleEn": "Hobbies and Free Time", "titleEs": "Hobbies y tiempo libre", "estimatedMinutes": 8, "prerequisites": ["a1-04-daily-routine"] },
+
+    { "id": "a2-11-past-weekend", "level": "A2", "topic": "Past", "titleEn": "Talking About the Weekend (Past Simple)", "titleEs": "Hablar del fin de semana (pasado simple)", "estimatedMinutes": 10, "prerequisites": ["a1-04-daily-routine"] },
+    { "id": "a2-12-plans-going-to", "level": "A2", "topic": "Plans", "titleEn": "Plans (Going to)", "titleEs": "Planes (going to)", "estimatedMinutes": 9, "prerequisites": ["a1-04-daily-routine"] },
+    { "id": "a2-13-health", "level": "A2", "topic": "Health", "titleEn": "Health: Symptoms and Advice", "titleEs": "Salud: síntomas y consejos", "estimatedMinutes": 10, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a2-14-work-meeting", "level": "A2", "topic": "Work", "titleEn": "Work: Simple Meeting Language", "titleEs": "Trabajo: frases para una reunión", "estimatedMinutes": 10, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a2-15-clothes-shopping", "level": "A2", "topic": "Shopping", "titleEn": "Shopping for Clothes", "titleEs": "Comprar ropa", "estimatedMinutes": 10, "prerequisites": ["a1-06-supermarket"] },
+    { "id": "a2-16-airport", "level": "A2", "topic": "Travel", "titleEn": "At the Airport", "titleEs": "En el aeropuerto", "estimatedMinutes": 10, "prerequisites": ["a1-08-hotel"] },
+    { "id": "a2-17-complaints", "level": "A2", "topic": "Problems", "titleEn": "Complaints and Problems", "titleEs": "Quejas y problemas", "estimatedMinutes": 10, "prerequisites": ["a1-01-greetings"] },
+    { "id": "a2-18-comparatives", "level": "A2", "topic": "Opinions", "titleEn": "Comparatives and Preferences", "titleEs": "Comparativos y preferencias", "estimatedMinutes": 10, "prerequisites": ["a1-10-hobbies"] },
+    { "id": "a2-19-storytelling", "level": "A2", "topic": "Stories", "titleEn": "Storytelling: Then and Because", "titleEs": "Contar una historia: then y because", "estimatedMinutes": 10, "prerequisites": ["a2-11-past-weekend"] },
+    { "id": "a2-20-polite-requests", "level": "A2", "topic": "Politeness", "titleEn": "Polite Requests", "titleEs": "Peticiones educadas", "estimatedMinutes": 9, "prerequisites": ["a1-01-greetings"] }
+  ]
+}

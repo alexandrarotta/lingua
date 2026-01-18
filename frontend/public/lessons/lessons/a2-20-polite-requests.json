@@ -1,0 +1,84 @@
+{
+  "id": "a2-20-polite-requests",
+  "titleEn": "Polite Requests",
+  "titleEs": "Peticiones educadas",
+  "level": "A2",
+  "topic": "Politeness",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hacer peticiones educadas en situaciones comunes.",
+    "Usar 'Could you please...?' y 'Would you mind...?' (simple).",
+    "Agradecer y cerrar de forma amable."
+  ],
+  "grammarFocus": "Peticiones educadas: Could you please...?, Would you mind...?",
+  "vocabList": [
+    { "en": "Could you please...?", "es": "¿Podrías por favor...?" },
+    { "en": "Would you mind...?", "es": "¿Te importaría...?" },
+    { "en": "help", "es": "ayudar" },
+    { "en": "send", "es": "enviar" },
+    { "en": "email", "es": "correo" },
+    { "en": "message", "es": "mensaje" },
+    { "en": "as soon as possible", "es": "lo antes posible" },
+    { "en": "thank you for your time", "es": "gracias por tu tiempo" },
+    { "en": "Sure", "es": "claro" },
+    { "en": "No problem", "es": "no hay problema" },
+    { "en": "I'm writing to...", "es": "Escribo para..." },
+    { "en": "Please let me know", "es": "Por favor avísame" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Could you please help me with this?" },
+    { "speaker": "B", "text": "Sure. No problem." },
+    { "speaker": "A", "text": "Would you mind sending me the notes by email?" },
+    { "speaker": "B", "text": "Of course. I'll send them today." }
+  ],
+  "targetPhrases": [
+    "Could you please help me?",
+    "Would you mind sending me the notes?",
+    "Thank you for your time.",
+    "Please let me know.",
+    "Sure, no problem."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the most polite request:",
+        "options": ["Send me the file.", "Could you please send me the file?", "You send me the file."],
+        "answerIndex": 1,
+        "explanationEs": "Could you please... suena más educado."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which means 'gracias por tu tiempo'?",
+        "options": ["Thank you for your time", "Thank you for your phone", "Thank you for your weather"],
+        "answerIndex": 0,
+        "explanationEs": "Thank you for your time = gracias por tu tiempo."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the correct phrase to close politely:",
+        "options": ["Please let me know.", "Go straight.", "It's sunny."],
+        "answerIndex": 0,
+        "explanationEs": "Please let me know = avísame, suena amable."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Could you ____ help me?", "answer": "please", "explanationEs": "Could you please...?" },
+      { "id": "fib-2", "sentenceEn": "Would you mind ____ me the notes?", "answer": "sending", "explanationEs": "Would you mind + -ing." },
+      { "id": "fib-3", "sentenceEn": "Thank you for your ____.", "answer": "time", "explanationEs": "Thank you for your time." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["please", "Could", "you", "help", "me"], "answer": ["Could", "you", "please", "help", "me"], "translationEs": "¿Podrías ayudarme, por favor?" },
+      { "id": "rw-2", "words": ["for", "Thank", "your", "time", "you"], "answer": ["Thank", "you", "for", "your", "time"], "translationEs": "Gracias por tu tiempo." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You need help with a small task. Make a polite request and say thank you.",
+    "promptsEn": [
+      "Ask for help politely.",
+      "Ask for something to be sent by email.",
+      "Say thank you and close politely."
+    ]
+  }
+}
+

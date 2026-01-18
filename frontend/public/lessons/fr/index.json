@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "Lingua · Français A1 Starter Pack",
+  "lessons": [
+    {
+      "id": "fr-a1-01-greetings",
+      "level": "A1",
+      "topic": "Introductions",
+      "titleEn": "Salutations et présentations",
+      "titleEs": "Saludos y presentaciones",
+      "estimatedMinutes": 7,
+      "prerequisites": []
+    }
+  ]
+}
+

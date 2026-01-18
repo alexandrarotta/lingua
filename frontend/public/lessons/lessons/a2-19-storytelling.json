@@ -1,0 +1,85 @@
+{
+  "id": "a2-19-storytelling",
+  "titleEn": "Storytelling: Then and Because",
+  "titleEs": "Contar una historia: then y because",
+  "level": "A2",
+  "topic": "Stories",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Contar una mini-historia en pasado con conectores.",
+    "Usar 'then', 'after that', 'because'.",
+    "Hacer una pregunta para continuar la conversación."
+  ],
+  "grammarFocus": "Conectores para secuencia y razón: then / after that / because, con pasado simple.",
+  "vocabList": [
+    { "en": "then", "es": "luego" },
+    { "en": "after that", "es": "después de eso" },
+    { "en": "because", "es": "porque" },
+    { "en": "suddenly", "es": "de repente" },
+    { "en": "finally", "es": "finalmente" },
+    { "en": "I went", "es": "fui" },
+    { "en": "I saw", "es": "vi" },
+    { "en": "I bought", "es": "compré" },
+    { "en": "I felt", "es": "me sentí" },
+    { "en": "tired", "es": "cansado/a" },
+    { "en": "happy", "es": "feliz" },
+    { "en": "What about you?", "es": "¿Y tú?" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Yesterday I went to the store. Then I saw my friend." },
+    { "speaker": "B", "text": "Nice! What happened after that?" },
+    { "speaker": "A", "text": "After that we got coffee because we had time." },
+    { "speaker": "B", "text": "Sounds great." }
+  ],
+  "targetPhrases": [
+    "Yesterday I went to the store.",
+    "Then I saw my friend.",
+    "After that we got coffee.",
+    "Because we had time.",
+    "What happened after that?",
+    "What about you?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the connector for sequence:",
+        "options": ["because", "then", "but"],
+        "answerIndex": 1,
+        "explanationEs": "'then' = luego (secuencia)."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Choose the connector for reason:",
+        "options": ["because", "after that", "than"],
+        "answerIndex": 0,
+        "explanationEs": "'because' introduce una razón."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the correct past form:",
+        "options": ["I see", "I saw", "I seed"],
+        "answerIndex": 1,
+        "explanationEs": "see → saw."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I went to the store. ____ I saw my friend.", "answer": "Then", "explanationEs": "Then = luego." },
+      { "id": "fib-2", "sentenceEn": "We got coffee ____ we had time.", "answer": "because", "explanationEs": "because = porque." },
+      { "id": "fib-3", "sentenceEn": "After that we ____ home.", "answer": "went", "explanationEs": "go → went." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["I", "saw", "then", "my", "friend"], "answer": ["Then", "I", "saw", "my", "friend"], "translationEs": "Luego vi a mi amigo." },
+      { "id": "rw-2", "words": ["coffee", "because", "time", "had", "we", "got", "we"], "answer": ["We", "got", "coffee", "because", "we", "had", "time"], "translationEs": "Tomamos café porque teníamos tiempo." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Tell a short story about yesterday using then/after that/because.",
+    "promptsEn": [
+      "Say what you did first (Yesterday I...).",
+      "Continue with 'Then...' and one event.",
+      "Give a reason with 'because...'."
+    ]
+  }
+}
+

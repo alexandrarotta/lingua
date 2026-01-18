@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-05-ordering-food",
+  "titleEn": "Ordinare al ristorante",
+  "titleEs": "Pedir comida",
+  "level": "A1",
+  "topic": "Food",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Pedir comida y bebida de forma simple.",
+    "Usar fórmulas educadas (vorrei, per favore).",
+    "Pedir la cuenta."
+  ],
+  "grammarFocus": "Pedir con cortesía: 'Vorrei...', 'Per favore'. Preguntar: 'Posso avere...?'",
+  "vocabList": [
+    { "en": "Vorrei...", "es": "Quisiera..." },
+    { "en": "Posso avere...?", "es": "¿Puedo tener...?" },
+    { "en": "per favore", "es": "por favor" },
+    { "en": "una pizza", "es": "una pizza" },
+    { "en": "un panino", "es": "un sándwich" },
+    { "en": "acqua", "es": "agua" },
+    { "en": "un caffè", "es": "un café" },
+    { "en": "Il conto, per favore.", "es": "La cuenta, por favor." },
+    { "en": "È tutto?", "es": "¿Es todo?" },
+    { "en": "Grazie", "es": "Gracias" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Buonasera! Cosa desidera?" },
+    { "speaker": "B", "text": "Vorrei una pizza e un'acqua, per favore." },
+    { "speaker": "A", "text": "Va bene. Altro?" },
+    { "speaker": "B", "text": "No, grazie. Il conto, per favore." }
+  ],
+  "targetPhrases": [
+    "Vorrei una pizza, per favore.",
+    "Posso avere un'acqua?",
+    "Un caffè, per favore.",
+    "Altro?",
+    "No, grazie.",
+    "Il conto, per favore.",
+    "Cosa desidera?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la richiesta più educata:",
+        "options": ["Dammi una pizza.", "Vorrei una pizza, per favore.", "Pizza!"],
+        "answerIndex": 1,
+        "explanationEs": "Vorrei..., per favore suena más educado."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale frase usi per chiedere la cuenta?",
+        "options": ["Il conto, per favore.", "Dov'è il bagno?", "Che ore sono?"],
+        "answerIndex": 0,
+        "explanationEs": "Il conto, per favore = la cuenta, por favor."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Cosa significa 'Altro?'",
+        "options": ["¿Algo más?", "¿Cómo te llamas?", "¿Está cerrado?"],
+        "answerIndex": 0,
+        "explanationEs": "Altro? = ¿Algo más?"
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Vorrei un caffè, ____.", "answer": "per favore", "explanationEs": "Per favore = por favor." },
+      { "id": "fib-2", "sentenceEn": "Il ____ , per favore.", "answer": "conto", "explanationEs": "Il conto = la cuenta." },
+      { "id": "fib-3", "sentenceEn": "Posso ____ un'acqua?", "answer": "avere", "explanationEs": "Posso avere...? = ¿Puedo tener...?" }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["una", "pizza", "Vorrei", "per", "favore"], "answer": ["Vorrei", "una", "pizza", "per", "favore"], "translationEs": "Quisiera una pizza, por favor." },
+      { "id": "rw-2", "words": ["conto", "Il", "per", "favore"], "answer": ["Il", "conto", "per", "favore"], "translationEs": "La cuenta, por favor." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei in un ristorante. Ordina cibo e bevande e chiedi il conto.",
+    "promptsEn": [
+      "Ordina un piatto e una bevanda.",
+      "Rispondi a 'Altro?' con cortesia.",
+      "Chiedi il conto."
+    ]
+  }
+}
+

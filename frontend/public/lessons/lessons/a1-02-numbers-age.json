@@ -1,0 +1,85 @@
+{
+  "id": "a1-02-numbers-age",
+  "titleEn": "Numbers and Age",
+  "titleEs": "Números y edad",
+  "level": "A1",
+  "topic": "Numbers",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Preguntar y decir la edad.",
+    "Decir números básicos (1–20) en contexto.",
+    "Pedir que repitan información (por claridad)."
+  ],
+  "grammarFocus": "Preguntas con 'How old are you?' y respuesta: 'I'm ... years old.'",
+  "vocabList": [
+    { "en": "How old are you?", "es": "¿Cuántos años tienes?" },
+    { "en": "I'm ... years old", "es": "Tengo ... años" },
+    { "en": "one", "es": "uno" },
+    { "en": "two", "es": "dos" },
+    { "en": "three", "es": "tres" },
+    { "en": "four", "es": "cuatro" },
+    { "en": "five", "es": "cinco" },
+    { "en": "ten", "es": "diez" },
+    { "en": "twenty", "es": "veinte" },
+    { "en": "phone number", "es": "número de teléfono" },
+    { "en": "Can you repeat that?", "es": "¿Puedes repetir eso?" },
+    { "en": "slowly", "es": "despacio" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hi! How old are you?" },
+    { "speaker": "B", "text": "I'm twenty-one years old." },
+    { "speaker": "A", "text": "Oh, nice! Can you repeat that slowly?" },
+    { "speaker": "B", "text": "Sure. I'm twenty-one." }
+  ],
+  "targetPhrases": [
+    "How old are you?",
+    "I'm twenty-one years old.",
+    "I'm twenty-five.",
+    "Can you repeat that?",
+    "Can you say it slowly?",
+    "Sure.",
+    "I'm eighteen."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Which question asks about age?",
+        "options": ["Where are you from?", "How old are you?", "What's your name?"],
+        "answerIndex": 1,
+        "explanationEs": "'How old are you?' pregunta la edad."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Choose the best answer: How old are you? — I'm ____ years old.",
+        "options": ["from", "twenty", "name"],
+        "answerIndex": 1,
+        "explanationEs": "En esa estructura va un número."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the polite request:",
+        "options": ["Repeat!", "Can you repeat that?", "You repeat that."],
+        "answerIndex": 1,
+        "explanationEs": "La forma educada es 'Can you...?'"
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I'm ____ years old.", "answer": "twenty", "explanationEs": "Ejemplo: I'm twenty years old." },
+      { "id": "fib-2", "sentenceEn": "Can you ____ that?", "answer": "repeat", "explanationEs": "Frase fija: Can you repeat that?" },
+      { "id": "fib-3", "sentenceEn": "Say it ____.", "answer": "slowly", "explanationEs": "Para pedir: Say it slowly." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["old", "are", "you", "How"], "answer": ["How", "old", "are", "you"], "translationEs": "¿Cuántos años tienes?" },
+      { "id": "rw-2", "words": ["years", "old", "twenty", "I'm"], "answer": ["I'm", "twenty", "years", "old"], "translationEs": "Tengo veinte años." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You meet a classmate. Ask their age and share yours politely.",
+    "promptsEn": [
+      "Ask their age.",
+      "Say your age.",
+      "Ask them to repeat one number slowly."
+    ]
+  }
+}

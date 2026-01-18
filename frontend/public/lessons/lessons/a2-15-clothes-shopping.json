@@ -1,0 +1,85 @@
+{
+  "id": "a2-15-clothes-shopping",
+  "titleEn": "Shopping for Clothes",
+  "titleEs": "Comprar ropa",
+  "level": "A2",
+  "topic": "Shopping",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Pedir una talla y probarte ropa.",
+    "Preguntar por precio y devoluciones.",
+    "Usar frases útiles: 'Do you have this in...?' / 'Can I try it on?'"
+  ],
+  "grammarFocus": "Preguntas comunes en tienda y cortesía básica.",
+  "vocabList": [
+    { "en": "size", "es": "talla" },
+    { "en": "small / medium / large", "es": "chica / mediana / grande" },
+    { "en": "Do you have this in...?", "es": "¿Lo tienes en...?" },
+    { "en": "Can I try it on?", "es": "¿Puedo probármelo?" },
+    { "en": "fitting room", "es": "probador" },
+    { "en": "price", "es": "precio" },
+    { "en": "discount", "es": "descuento" },
+    { "en": "return", "es": "devolver" },
+    { "en": "receipt", "es": "recibo" },
+    { "en": "shirt", "es": "camisa" },
+    { "en": "pants", "es": "pantalones" },
+    { "en": "too big / too small", "es": "muy grande / muy chico" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hi. Do you have this in medium?" },
+    { "speaker": "B", "text": "Yes. Here you are." },
+    { "speaker": "A", "text": "Thanks. Can I try it on?" },
+    { "speaker": "B", "text": "Sure. The fitting room is over there." }
+  ],
+  "targetPhrases": [
+    "Do you have this in medium?",
+    "Do you have this in large?",
+    "Can I try it on?",
+    "Where is the fitting room?",
+    "It's too big.",
+    "It's too small."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct question for size:",
+        "options": ["Do you have this in medium?", "Do you have this medium?", "You have medium?"],
+        "answerIndex": 0,
+        "explanationEs": "Estructura: Do you have this in + talla."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which means 'probador'?",
+        "options": ["fitting room", "bus stop", "elevator"],
+        "answerIndex": 0,
+        "explanationEs": "fitting room = probador."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick the meaning of 'too small':",
+        "options": ["muy chico", "muy caro", "muy lejos"],
+        "answerIndex": 0,
+        "explanationEs": "too small = muy chico."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Can I ____ it on?", "answer": "try", "explanationEs": "try it on = probárselo." },
+      { "id": "fib-2", "sentenceEn": "It's too ____.", "answer": "big", "explanationEs": "too big = muy grande." },
+      { "id": "fib-3", "sentenceEn": "Where is the fitting ____?", "answer": "room", "explanationEs": "fitting room = probador." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["try", "Can", "on", "I", "it"], "answer": ["Can", "I", "try", "it", "on"], "translationEs": "¿Puedo probármelo?" },
+      { "id": "rw-2", "words": ["this", "in", "you", "have", "Do", "large"], "answer": ["Do", "you", "have", "this", "in", "large"], "translationEs": "¿Lo tienes en talla grande?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are in a clothing store. Ask for a size and try an item on.",
+    "promptsEn": [
+      "Ask if they have an item in your size.",
+      "Ask to try it on.",
+      "Say if it is too big or too small."
+    ]
+  }
+}
+

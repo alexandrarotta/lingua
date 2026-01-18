@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "title": "Lingua · Italiano A1–A2 Pack",
+  "lessons": [
+    {
+      "id": "it-a1-01-greetings",
+      "level": "A1",
+      "topic": "Introductions",
+      "titleEn": "Saluti e presentazioni",
+      "titleEs": "Saludos y presentaciones",
+      "estimatedMinutes": 7,
+      "prerequisites": []
+    },
+    {
+      "id": "it-a1-02-numbers-age",
+      "level": "A1",
+      "topic": "Numbers",
+      "titleEn": "Numeri ed età",
+      "titleEs": "Números y edad",
+      "estimatedMinutes": 7,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-03-family",
+      "level": "A1",
+      "topic": "Family",
+      "titleEn": "Famiglia e amici",
+      "titleEs": "Familia y amigos",
+      "estimatedMinutes": 8,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-04-daily-routine",
+      "level": "A1",
+      "topic": "Daily routine",
+      "titleEn": "Routine quotidiana",
+      "titleEs": "Rutina diaria",
+      "estimatedMinutes": 9,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-05-ordering-food",
+      "level": "A1",
+      "topic": "Food",
+      "titleEn": "Ordinare al ristorante",
+      "titleEs": "Pedir comida",
+      "estimatedMinutes": 8,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-06-supermarket",
+      "level": "A1",
+      "topic": "Shopping",
+      "titleEn": "Al supermercato",
+      "titleEs": "En el supermercado",
+      "estimatedMinutes": 8,
+      "prerequisites": ["it-a1-05-ordering-food"]
+    },
+    {
+      "id": "it-a1-07-directions",
+      "level": "A1",
+      "topic": "Directions",
+      "titleEn": "Chiedere indicazioni",
+      "titleEs": "Pedir direcciones",
+      "estimatedMinutes": 9,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-08-hotel",
+      "level": "A1",
+      "topic": "Travel",
+      "titleEn": "Check-in in hotel",
+      "titleEs": "Check-in en hotel",
+      "estimatedMinutes": 9,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-09-weather",
+      "level": "A1",
+      "topic": "Weather",
+      "titleEn": "Parlare del tempo",
+      "titleEs": "Hablar del clima",
+      "estimatedMinutes": 7,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a1-10-hobbies",
+      "level": "A1",
+      "topic": "Free time",
+      "titleEn": "Hobby e tempo libero",
+      "titleEs": "Hobbies y tiempo libre",
+      "estimatedMinutes": 8,
+      "prerequisites": ["it-a1-04-daily-routine"]
+    },
+
+    {
+      "id": "it-a2-11-past-weekend",
+      "level": "A2",
+      "topic": "Past",
+      "titleEn": "Raccontare il weekend (passato prossimo)",
+      "titleEs": "Hablar del fin de semana (pasado)",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-04-daily-routine"]
+    },
+    {
+      "id": "it-a2-12-plans-going-to",
+      "level": "A2",
+      "topic": "Plans",
+      "titleEn": "Piani (futuro: 'andare a')",
+      "titleEs": "Planes (futuro)",
+      "estimatedMinutes": 9,
+      "prerequisites": ["it-a1-04-daily-routine"]
+    },
+    {
+      "id": "it-a2-13-health",
+      "level": "A2",
+      "topic": "Health",
+      "titleEn": "Salute: sintomi e consigli",
+      "titleEs": "Salud: síntomas y consejos",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a2-14-work-meeting",
+      "level": "A2",
+      "topic": "Work",
+      "titleEn": "Lavoro: linguaggio per una riunione",
+      "titleEs": "Trabajo: frases para una reunión",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a2-15-clothes-shopping",
+      "level": "A2",
+      "topic": "Shopping",
+      "titleEn": "Comprare vestiti",
+      "titleEs": "Comprar ropa",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-06-supermarket"]
+    },
+    {
+      "id": "it-a2-16-airport",
+      "level": "A2",
+      "topic": "Travel",
+      "titleEn": "In aeroporto",
+      "titleEs": "En el aeropuerto",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-08-hotel"]
+    },
+    {
+      "id": "it-a2-17-complaints",
+      "level": "A2",
+      "topic": "Problems",
+      "titleEn": "Lamentele e problemi",
+      "titleEs": "Quejas y problemas",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-01-greetings"]
+    },
+    {
+      "id": "it-a2-18-comparatives",
+      "level": "A2",
+      "topic": "Opinions",
+      "titleEn": "Comparativi e preferenze",
+      "titleEs": "Comparativos y preferencias",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a1-10-hobbies"]
+    },
+    {
+      "id": "it-a2-19-storytelling",
+      "level": "A2",
+      "topic": "Stories",
+      "titleEn": "Raccontare una storia: poi/perché",
+      "titleEs": "Contar una historia: then/because",
+      "estimatedMinutes": 10,
+      "prerequisites": ["it-a2-11-past-weekend"]
+    },
+    {
+      "id": "it-a2-20-polite-requests",
+      "level": "A2",
+      "topic": "Politeness",
+      "titleEn": "Richieste educate",
+      "titleEs": "Peticiones educadas",
+      "estimatedMinutes": 9,
+      "prerequisites": ["it-a1-01-greetings"]
+    }
+  ]
+}

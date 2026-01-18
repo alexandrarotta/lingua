@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-20-polite-requests",
+  "titleEn": "Richieste educate",
+  "titleEs": "Peticiones educadas",
+  "level": "A2",
+  "topic": "Politeness",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hacer peticiones educadas en situaciones comunes.",
+    "Usar 'Potresti...?' y 'Ti dispiacerebbe...?' (simple).",
+    "Agradecer y cerrar de forma amable."
+  ],
+  "grammarFocus": "Peticiones educadas: Potresti...?, Ti dispiacerebbe...?, Per favore.",
+  "vocabList": [
+    { "en": "Potresti per favore...?", "es": "¿Podrías por favor...?" },
+    { "en": "Ti dispiacerebbe...?", "es": "¿Te importaría...?" },
+    { "en": "aiutarmi", "es": "ayudarme" },
+    { "en": "mandarmi", "es": "enviarme" },
+    { "en": "un'email", "es": "un email" },
+    { "en": "un messaggio", "es": "un mensaje" },
+    { "en": "il prima possibile", "es": "lo antes posible" },
+    { "en": "Grazie per il tuo tempo", "es": "gracias por tu tiempo" },
+    { "en": "Certo", "es": "claro" },
+    { "en": "Nessun problema", "es": "no hay problema" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Potresti per favore aiutarmi con questo?" },
+    { "speaker": "B", "text": "Certo. Nessun problema." },
+    { "speaker": "A", "text": "Ti dispiacerebbe mandarmi le note via email?" },
+    { "speaker": "B", "text": "Va bene. Te le mando oggi." }
+  ],
+  "targetPhrases": [
+    "Potresti per favore aiutarmi?",
+    "Ti dispiacerebbe mandarmi le note?",
+    "Grazie per il tuo tempo.",
+    "Per favore, fammi sapere.",
+    "Certo, nessun problema."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la richiesta più educata:",
+        "options": ["Mandami il file.", "Potresti per favore mandarmi il file?", "Tu mi mandi il file."],
+        "answerIndex": 1,
+        "explanationEs": "Potresti per favore... suena más educado."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale significa 'gracias por tu tiempo'?",
+        "options": ["Grazie per il tuo tempo", "Grazie per il tuo telefono", "Grazie per il tuo tempo libero"],
+        "answerIndex": 0,
+        "explanationEs": "Grazie per il tuo tempo = gracias por tu tiempo."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli una risposta positiva:",
+        "options": ["No.", "Certo, nessun problema.", "Vai via."],
+        "answerIndex": 1,
+        "explanationEs": "Certo, nessun problema = claro, no hay problema."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Potresti ____ favore aiutarmi?", "answer": "per", "explanationEs": "Per favore = por favor." },
+      { "id": "fib-2", "sentenceEn": "Ti dispiacerebbe ____ un'email?", "answer": "mandarmi", "explanationEs": "Mandarmi = enviarme." },
+      { "id": "fib-3", "sentenceEn": "Grazie per il tuo ____.", "answer": "tempo", "explanationEs": "Grazie per il tuo tempo." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["per", "favore", "Potresti", "aiutarmi"], "answer": ["Potresti", "per", "favore", "aiutarmi"], "translationEs": "¿Podrías ayudarme, por favor?" },
+      { "id": "rw-2", "words": ["per", "il", "Grazie", "tuo", "tempo"], "answer": ["Grazie", "per", "il", "tuo", "tempo"], "translationEs": "Gracias por tu tiempo." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Hai bisogno di aiuto con una piccola cosa. Fai una richiesta educata e ringrazia.",
+    "promptsEn": [
+      "Chiedi aiuto in modo educato.",
+      "Chiedi di inviare qualcosa via email.",
+      "Ringrazia e chiudi con cortesia."
+    ]
+  }
+}
+

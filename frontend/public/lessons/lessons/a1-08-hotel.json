@@ -1,0 +1,87 @@
+{
+  "id": "a1-08-hotel",
+  "titleEn": "Hotel Check-in",
+  "titleEs": "Check-in en hotel",
+  "level": "A1",
+  "topic": "Travel",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hacer check-in con frases simples.",
+    "Pedir información básica (wifi, elevator).",
+    "Usar 'I have a reservation'."
+  ],
+  "grammarFocus": "Peticiones simples y vocabulario de hotel. Estructuras: 'I have...' / 'Can I...?'",
+  "vocabList": [
+    { "en": "reservation", "es": "reserva" },
+    { "en": "I have a reservation", "es": "Tengo una reserva" },
+    { "en": "check in", "es": "hacer check-in" },
+    { "en": "room", "es": "habitación" },
+    { "en": "key", "es": "llave/tarjeta" },
+    { "en": "passport", "es": "pasaporte" },
+    { "en": "Wi‑Fi", "es": "Wi‑Fi" },
+    { "en": "elevator", "es": "ascensor" },
+    { "en": "breakfast", "es": "desayuno" },
+    { "en": "What time...?", "es": "¿A qué hora...?" },
+    { "en": "included", "es": "incluido" },
+    { "en": "thank you", "es": "gracias" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hello. I have a reservation." },
+    { "speaker": "B", "text": "Sure. Can I see your passport, please?" },
+    { "speaker": "A", "text": "Yes. Here you go." },
+    { "speaker": "B", "text": "Thank you. Your room is 204. Here is your key." },
+    { "speaker": "A", "text": "Great. Is breakfast included?" }
+  ],
+  "targetPhrases": [
+    "Hello. I have a reservation.",
+    "Can I see your passport, please?",
+    "Here you go.",
+    "Here is your key.",
+    "Is breakfast included?",
+    "Where is the elevator?",
+    "What's the Wi‑Fi password?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "What do you say at check-in?",
+        "options": ["I have a reservation.", "I have a sandwich.", "I have two brothers."],
+        "answerIndex": 0,
+        "explanationEs": "En hotel: I have a reservation."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which word means 'ascensor'?",
+        "options": ["elevator", "corner", "menu"],
+        "answerIndex": 0,
+        "explanationEs": "elevator = ascensor."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Complete: Is breakfast ____?",
+        "options": ["included", "include", "including"],
+        "answerIndex": 0,
+        "explanationEs": "La forma común es: Is breakfast included?"
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I have a ____.", "answer": "reservation", "explanationEs": "reservation = reserva." },
+      { "id": "fib-2", "sentenceEn": "Where is the ____?", "answer": "elevator", "explanationEs": "elevator = ascensor." },
+      { "id": "fib-3", "sentenceEn": "What's the Wi‑Fi ____?", "answer": "password", "explanationEs": "password = contraseña." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["have", "a", "I", "reservation"], "answer": ["I", "have", "a", "reservation"], "translationEs": "Tengo una reserva." },
+      { "id": "rw-2", "words": ["breakfast", "included", "Is"], "answer": ["Is", "breakfast", "included"], "translationEs": "¿El desayuno está incluido?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You check in at a hotel. Ask about Wi‑Fi and breakfast.",
+    "promptsEn": [
+      "Say you have a reservation.",
+      "Ask for the Wi‑Fi password.",
+      "Ask if breakfast is included."
+    ]
+  }
+}
+

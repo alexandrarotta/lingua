@@ -1,0 +1,85 @@
+{
+  "id": "a1-10-hobbies",
+  "titleEn": "Hobbies and Free Time",
+  "titleEs": "Hobbies y tiempo libre",
+  "level": "A1",
+  "topic": "Free time",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Hablar de hobbies con 'I like / I love / I enjoy'.",
+    "Preguntar por preferencias: 'Do you like...?'",
+    "Hablar de fines de semana con frases simples."
+  ],
+  "grammarFocus": "Expresar gustos: 'I like...' y preguntas: 'Do you like...?'",
+  "vocabList": [
+    { "en": "hobby", "es": "hobby" },
+    { "en": "free time", "es": "tiempo libre" },
+    { "en": "music", "es": "música" },
+    { "en": "movies", "es": "películas" },
+    { "en": "sports", "es": "deportes" },
+    { "en": "reading", "es": "leer" },
+    { "en": "cooking", "es": "cocinar" },
+    { "en": "walking", "es": "caminar" },
+    { "en": "on weekends", "es": "los fines de semana" },
+    { "en": "I like...", "es": "Me gusta..." },
+    { "en": "Do you like...?", "es": "¿Te gusta...?" },
+    { "en": "Me too", "es": "A mí también" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "What do you do in your free time?" },
+    { "speaker": "B", "text": "I like reading and cooking." },
+    { "speaker": "A", "text": "Nice! Do you like music?" },
+    { "speaker": "B", "text": "Yes, I love music. Me too?" }
+  ],
+  "targetPhrases": [
+    "What do you do in your free time?",
+    "I like reading.",
+    "I enjoy cooking.",
+    "Do you like music?",
+    "Yes, I love music.",
+    "Me too."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct question:",
+        "options": ["Do you like music?", "You like music?", "Like you music?"],
+        "answerIndex": 0,
+        "explanationEs": "En presente simple: Do you like...?"
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Which means 'tiempo libre'?",
+        "options": ["free time", "breakfast", "weather"],
+        "answerIndex": 0,
+        "explanationEs": "free time = tiempo libre."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Pick a hobby:",
+        "options": ["reading", "elevator", "passport"],
+        "answerIndex": 0,
+        "explanationEs": "reading = leer."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I like ____.", "answer": "music", "explanationEs": "Ejemplo: I like music." },
+      { "id": "fib-2", "sentenceEn": "Do you like ____?", "answer": "movies", "explanationEs": "Ejemplo: Do you like movies?" },
+      { "id": "fib-3", "sentenceEn": "On ____ I like walking.", "answer": "weekends", "explanationEs": "on weekends = los fines de semana." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["like", "I", "reading"], "answer": ["I", "like", "reading"], "translationEs": "Me gusta leer." },
+      { "id": "rw-2", "words": ["do", "you", "free", "time", "in", "What", "your"], "answer": ["What", "do", "you", "do", "in", "your", "free", "time"], "translationEs": "¿Qué haces en tu tiempo libre?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You talk with a friend about hobbies and weekend plans.",
+    "promptsEn": [
+      "Ask what they do in their free time.",
+      "Say two hobbies you like.",
+      "Ask if they like music or movies."
+    ]
+  }
+}
+

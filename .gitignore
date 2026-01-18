@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.node
+.DS_Store
+certs
+backend/db/*.sqlite*
+backend/db/*.db
+.env
+.env.*

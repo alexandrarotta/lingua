@@ -1,0 +1,85 @@
+{
+  "id": "a2-13-health",
+  "titleEn": "Health: Symptoms and Advice",
+  "titleEs": "Salud: síntomas y consejos",
+  "level": "A2",
+  "topic": "Health",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Decir síntomas comunes.",
+    "Pedir ayuda en una farmacia o clínica.",
+    "Entender recomendaciones simples ('You should...')."
+  ],
+  "grammarFocus": "Expresar síntomas: 'I have...' / 'I feel...' y consejos: 'You should...'",
+  "vocabList": [
+    { "en": "headache", "es": "dolor de cabeza" },
+    { "en": "stomachache", "es": "dolor de estómago" },
+    { "en": "fever", "es": "fiebre" },
+    { "en": "cough", "es": "tos" },
+    { "en": "sore throat", "es": "dolor de garganta" },
+    { "en": "I have a headache", "es": "Tengo dolor de cabeza" },
+    { "en": "I feel sick", "es": "Me siento mal" },
+    { "en": "medicine", "es": "medicina" },
+    { "en": "pharmacy", "es": "farmacia" },
+    { "en": "You should rest", "es": "Deberías descansar" },
+    { "en": "drink water", "es": "beber agua" },
+    { "en": "appointment", "es": "cita" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hi. I have a headache and a sore throat." },
+    { "speaker": "B", "text": "I'm sorry. You should rest and drink water." },
+    { "speaker": "A", "text": "Do you have medicine for a headache?" },
+    { "speaker": "B", "text": "Yes. This one can help." }
+  ],
+  "targetPhrases": [
+    "I have a headache.",
+    "I have a sore throat.",
+    "I feel sick.",
+    "You should rest.",
+    "You should drink water.",
+    "Do you have medicine for a headache?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Which means 'dolor de cabeza'?",
+        "options": ["headache", "fever", "cough"],
+        "answerIndex": 0,
+        "explanationEs": "headache = dolor de cabeza."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Choose a simple advice sentence:",
+        "options": ["You should rest.", "You must resting.", "You rest should."],
+        "answerIndex": 0,
+        "explanationEs": "Forma: You should + verbo."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Where do you buy medicine?",
+        "options": ["pharmacy", "airport", "museum"],
+        "answerIndex": 0,
+        "explanationEs": "pharmacy = farmacia."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I have a ____.", "answer": "fever", "explanationEs": "fever = fiebre." },
+      { "id": "fib-2", "sentenceEn": "You should ____ water.", "answer": "drink", "explanationEs": "drink water = beber agua." },
+      { "id": "fib-3", "sentenceEn": "I feel ____.", "answer": "sick", "explanationEs": "I feel sick = me siento mal." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["should", "You", "rest"], "answer": ["You", "should", "rest"], "translationEs": "Deberías descansar." },
+      { "id": "rw-2", "words": ["have", "I", "a", "headache"], "answer": ["I", "have", "a", "headache"], "translationEs": "Tengo dolor de cabeza." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are at a pharmacy. Explain symptoms and ask for advice.",
+    "promptsEn": [
+      "Say two symptoms you have.",
+      "Ask if they have medicine for one symptom.",
+      "Repeat the advice: You should..."
+    ]
+  }
+}
+

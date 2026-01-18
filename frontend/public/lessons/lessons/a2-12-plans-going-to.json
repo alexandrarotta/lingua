@@ -1,0 +1,86 @@
+{
+  "id": "a2-12-plans-going-to",
+  "titleEn": "Plans (Going to)",
+  "titleEs": "Planes (going to)",
+  "level": "A2",
+  "topic": "Plans",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hablar de planes cercanos con 'going to'.",
+    "Hacer preguntas sobre planes: 'What are you going to...?'",
+    "Proponer una actividad simple."
+  ],
+  "grammarFocus": "Futuro con 'be going to': I'm going to..., Are you going to...?",
+  "vocabList": [
+    { "en": "plan", "es": "plan" },
+    { "en": "this weekend", "es": "este fin de semana" },
+    { "en": "I'm going to...", "es": "Voy a..." },
+    { "en": "Are you going to...?", "es": "¿Vas a...?" },
+    { "en": "What are you going to do?", "es": "¿Qué vas a hacer?" },
+    { "en": "meet friends", "es": "ver a amigos" },
+    { "en": "study", "es": "estudiar" },
+    { "en": "travel", "es": "viajar" },
+    { "en": "relax", "es": "relajarse" },
+    { "en": "maybe", "es": "quizás" },
+    { "en": "sounds good", "es": "suena bien" },
+    { "en": "Let's...", "es": "Hagamos..." }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "What are you going to do this weekend?" },
+    { "speaker": "B", "text": "I'm going to relax and meet friends." },
+    { "speaker": "A", "text": "Nice. Are you going to watch a movie?" },
+    { "speaker": "B", "text": "Maybe. Sounds good!" }
+  ],
+  "targetPhrases": [
+    "What are you going to do this weekend?",
+    "I'm going to relax.",
+    "I'm going to meet friends.",
+    "Are you going to watch a movie?",
+    "Maybe.",
+    "Sounds good.",
+    "Let's get coffee."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct form:",
+        "options": ["I going to study.", "I'm going to study.", "I'm go to study."],
+        "answerIndex": 1,
+        "explanationEs": "Estructura: I'm going to + verbo."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Pick the correct question:",
+        "options": ["Are you going to travel?", "Do you going to travel?", "You are going to travel?"],
+        "answerIndex": 0,
+        "explanationEs": "Pregunta: Are you going to...?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Which phrase suggests an activity?",
+        "options": ["Let's get coffee.", "I have a reservation.", "It's rainy."],
+        "answerIndex": 0,
+        "explanationEs": "'Let's...' propone una actividad."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I'm going to ____ this weekend.", "answer": "relax", "explanationEs": "Ejemplo: relax/study/travel." },
+      { "id": "fib-2", "sentenceEn": "____ you going to study?", "answer": "Are", "explanationEs": "Pregunta: Are you going to...?" },
+      { "id": "fib-3", "sentenceEn": "What are you going to ____?", "answer": "do", "explanationEs": "What are you going to do?" }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["going", "to", "I'm", "study"], "answer": ["I'm", "going", "to", "study"], "translationEs": "Voy a estudiar." },
+      { "id": "rw-2", "words": ["to", "going", "you", "Are", "travel"], "answer": ["Are", "you", "going", "to", "travel"], "translationEs": "¿Vas a viajar?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You make plans with a friend for this weekend.",
+    "promptsEn": [
+      "Ask what they are going to do.",
+      "Suggest one plan with 'Let's...'.",
+      "Answer with 'I'm going to...' and one detail."
+    ]
+  }
+}
+

@@ -1,0 +1,83 @@
+{
+  "id": "it-a2-11-past-weekend",
+  "titleEn": "Raccontare il weekend (passato prossimo)",
+  "titleEs": "Hablar del fin de semana (pasado)",
+  "level": "A2",
+  "topic": "Past",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Hablar de actividades pasadas de forma simple.",
+    "Usar pasado próximo (ho/sono + participio) en frases cortas.",
+    "Hacer preguntas básicas sobre el fin de semana."
+  ],
+  "grammarFocus": "Passato prossimo: ho mangiato / ho visto / sono andato(a). Preguntas: 'Che cosa hai fatto?'.",
+  "vocabList": [
+    { "en": "Che cosa hai fatto nel weekend?", "es": "¿Qué hiciste el fin de semana?" },
+    { "en": "Sono andato/a", "es": "Fui" },
+    { "en": "Ho mangiato", "es": "Comí" },
+    { "en": "Ho visto", "es": "Vi" },
+    { "en": "Ho incontrato", "es": "Me encontré con / conocí" },
+    { "en": "al cinema", "es": "al cine" },
+    { "en": "con amici", "es": "con amigos" },
+    { "en": "È stato divertente", "es": "Fue divertido" },
+    { "en": "stanco/a", "es": "cansado/a" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Che cosa hai fatto nel weekend?" },
+    { "speaker": "B", "text": "Sono andato al cinema con amici. Ho visto un film." },
+    { "speaker": "A", "text": "Bello! Hai mangiato fuori?" },
+    { "speaker": "B", "text": "Sì, ho mangiato una pizza. È stato divertente." }
+  ],
+  "targetPhrases": [
+    "Che cosa hai fatto nel weekend?",
+    "Sono andato/a al cinema.",
+    "Ho visto un film.",
+    "Ho mangiato una pizza.",
+    "Ho incontrato un amico.",
+    "È stato divertente.",
+    "E tu?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la frase al passato:",
+        "options": ["Vado al cinema.", "Sono andato/a al cinema.", "Vado a letto."],
+        "answerIndex": 1,
+        "explanationEs": "Sono andato/a = pasado (fui)."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale domanda chiede 'qué hiciste'?",
+        "options": ["Che cosa hai fatto?", "Che tempo fa?", "Dov'è il bagno?"],
+        "answerIndex": 0,
+        "explanationEs": "Che cosa hai fatto? = ¿Qué hiciste?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Completa: Ho ____ una pizza.",
+        "options": ["mangio", "mangiato", "mangiare"],
+        "answerIndex": 1,
+        "explanationEs": "Passato prossimo: ho + participio (mangiato)."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Ho ____ un film.", "answer": "visto", "explanationEs": "Ho visto = vi." },
+      { "id": "fib-2", "sentenceEn": "Sono ____ al cinema.", "answer": "andato", "explanationEs": "Sono andato = fui (masc.)." },
+      { "id": "fib-3", "sentenceEn": "È stato ____.", "answer": "divertente", "explanationEs": "Divertente = divertido." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["fatto", "hai", "cosa", "Che"], "answer": ["Che", "cosa", "hai", "fatto"], "translationEs": "¿Qué hiciste?" },
+      { "id": "rw-2", "words": ["film", "un", "Ho", "visto"], "answer": ["Ho", "visto", "un", "film"], "translationEs": "Vi una película." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Parli con un collega il lunedì. Racconta cosa hai fatto nel weekend e fai domande.",
+    "promptsEn": [
+      "Chiedi cosa ha fatto nel weekend.",
+      "Racconta due cose che hai fatto.",
+      "Chiedi un dettaglio (dove/con chi)."
+    ]
+  }
+}
+

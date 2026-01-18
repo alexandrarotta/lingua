@@ -1,0 +1,85 @@
+{
+  "id": "it-a1-04-daily-routine",
+  "titleEn": "Routine quotidiana",
+  "titleEs": "Rutina diaria",
+  "level": "A1",
+  "topic": "Daily routine",
+  "estimatedMinutes": 9,
+  "objectives": [
+    "Hablar de tu rutina diaria con frases simples.",
+    "Decir horarios (a las 7, a las 8...).",
+    "Usar verbos comunes (levantarse, ir, volver)."
+  ],
+  "grammarFocus": "Presente: 'Mi sveglio', 'Vado al lavoro'. Expresar horas: 'Alle sette'.",
+  "vocabList": [
+    { "en": "Mi sveglio", "es": "Me despierto" },
+    { "en": "Mi alzo", "es": "Me levanto" },
+    { "en": "Faccio colazione", "es": "Desayuno" },
+    { "en": "Vado al lavoro", "es": "Voy al trabajo" },
+    { "en": "Vado a scuola", "es": "Voy a la escuela" },
+    { "en": "Torno a casa", "es": "Vuelvo a casa" },
+    { "en": "Ceno", "es": "Ceno" },
+    { "en": "Vado a letto", "es": "Me voy a la cama" },
+    { "en": "alle sette", "es": "a las siete" },
+    { "en": "di solito", "es": "normalmente" },
+    { "en": "ogni giorno", "es": "cada día" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "A che ora ti svegli di solito?" },
+    { "speaker": "B", "text": "Mi sveglio alle sette e mi alzo alle sette e mezza." },
+    { "speaker": "A", "text": "E poi?" },
+    { "speaker": "B", "text": "Faccio colazione e vado al lavoro." }
+  ],
+  "targetPhrases": [
+    "A che ora ti svegli?",
+    "Mi sveglio alle sette.",
+    "Mi alzo alle sette e mezza.",
+    "Faccio colazione.",
+    "Vado al lavoro.",
+    "Torno a casa alle sei.",
+    "Vado a letto alle undici."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la frase per 'Vuelvo a casa':",
+        "options": ["Vado a casa", "Torno a casa", "Sto a casa"],
+        "answerIndex": 1,
+        "explanationEs": "Torno a casa = vuelvo a casa."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Quale domanda chiede l'orario?",
+        "options": ["Come ti chiami?", "A che ora ti svegli?", "Di dove sei?"],
+        "answerIndex": 1,
+        "explanationEs": "A che ora...? pregunta el horario."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli l'azione corretta per la mattina:",
+        "options": ["Vado a letto", "Faccio colazione", "Ceno"],
+        "answerIndex": 1,
+        "explanationEs": "En la mañana: Hacer desayuno."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Mi ____ alle sette.", "answer": "sveglio", "explanationEs": "Mi sveglio = me despierto." },
+      { "id": "fib-2", "sentenceEn": "Vado ____ lavoro.", "answer": "al", "explanationEs": "al lavoro = al trabajo." },
+      { "id": "fib-3", "sentenceEn": "Vado a ____ alle undici.", "answer": "letto", "explanationEs": "Vado a letto = me voy a la cama." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["sveglio", "Mi", "alle", "sette"], "answer": ["Mi", "sveglio", "alle", "sette"], "translationEs": "Me despierto a las siete." },
+      { "id": "rw-2", "words": ["colazione", "Faccio"], "answer": ["Faccio", "colazione"], "translationEs": "Desayuno." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Parli con un collega. Descrivi la tua routine e chiedi la sua.",
+    "promptsEn": [
+      "Chiedi a che ora si sveglia.",
+      "Di' a che ora ti svegli e cosa fai dopo.",
+      "Chiedi a che ora va a letto."
+    ]
+  }
+}
+

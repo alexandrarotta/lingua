@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-10-hobbies",
+  "titleEn": "Hobby e tempo libero",
+  "titleEs": "Hobbies y tiempo libre",
+  "level": "A1",
+  "topic": "Free time",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Hablar de tus hobbies con frases simples.",
+    "Preguntar qué le gusta a alguien.",
+    "Usar 'Mi piace' + infinitivo / 'Mi piacciono' + plural."
+  ],
+  "grammarFocus": "'Mi piace...' (sing.) / 'Mi piacciono...' (pl.). Preguntas: 'Cosa ti piace fare?'",
+  "vocabList": [
+    { "en": "Mi piace...", "es": "Me gusta..." },
+    { "en": "Mi piacciono...", "es": "Me gustan..." },
+    { "en": "Cosa ti piace fare?", "es": "¿Qué te gusta hacer?" },
+    { "en": "leggere", "es": "leer" },
+    { "en": "correre", "es": "correr" },
+    { "en": "cucinare", "es": "cocinar" },
+    { "en": "guardare film", "es": "ver películas" },
+    { "en": "musica", "es": "música" },
+    { "en": "sport", "es": "deporte" },
+    { "en": "nel tempo libero", "es": "en el tiempo libre" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Cosa ti piace fare nel tempo libero?" },
+    { "speaker": "B", "text": "Mi piace leggere e guardare film." },
+    { "speaker": "A", "text": "Bello! Ti piace lo sport?" },
+    { "speaker": "B", "text": "Sì, mi piace correre." }
+  ],
+  "targetPhrases": [
+    "Cosa ti piace fare?",
+    "Mi piace leggere.",
+    "Mi piace guardare film.",
+    "Mi piace correre.",
+    "Mi piacciono i libri.",
+    "Mi piace la musica.",
+    "E a te?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli la domanda sui hobby:",
+        "options": ["Cosa ti piace fare?", "Quanti anni hai?", "Di dove sei?"],
+        "answerIndex": 0,
+        "explanationEs": "Cosa ti piace fare? pregunta por hobbies."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Completa: Mi piace ____.",
+        "options": ["leggere", "libri", "anni"],
+        "answerIndex": 0,
+        "explanationEs": "Después de 'Mi piace' va un infinitivo."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli il plurale corretto:",
+        "options": ["Mi piacciono i libri.", "Mi piace i libri.", "Mi piacciono il libro."],
+        "answerIndex": 0,
+        "explanationEs": "Plural: Mi piacciono + i/le + plural."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Mi piace ____.", "answer": "leggere", "explanationEs": "Leggere = leer." },
+      { "id": "fib-2", "sentenceEn": "Mi ____ la musica.", "answer": "piace", "explanationEs": "Mi piace la musica." },
+      { "id": "fib-3", "sentenceEn": "Mi piacciono i ____.", "answer": "libri", "explanationEs": "Libri = libros." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["piace", "Mi", "correre"], "answer": ["Mi", "piace", "correre"], "translationEs": "Me gusta correr." },
+      { "id": "rw-2", "words": ["ti", "fare", "Cosa", "piace"], "answer": ["Cosa", "ti", "piace", "fare"], "translationEs": "¿Qué te gusta hacer?" }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Conosci qualcuno. Parla dei tuoi hobby e chiedi i suoi.",
+    "promptsEn": [
+      "Chiedi cosa gli/le piace fare.",
+      "Di' due cose che ti piacciono.",
+      "Fai una domanda di follow-up (musica/sport/film)."
+    ]
+  }
+}
+

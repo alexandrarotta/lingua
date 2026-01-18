@@ -1,0 +1,86 @@
+{
+  "id": "a1-03-family",
+  "titleEn": "Family and Friends",
+  "titleEs": "Familia y amigos",
+  "level": "A1",
+  "topic": "Family",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Hablar de tu familia con frases cortas.",
+    "Usar posesivos simples: my / your / his / her.",
+    "Hacer preguntas básicas sobre familiares."
+  ],
+  "grammarFocus": "Pposesivos (my/your/his/her) y 'have/has' en presente: 'I have...' / 'She has...'.",
+  "vocabList": [
+    { "en": "family", "es": "familia" },
+    { "en": "parents", "es": "padres" },
+    { "en": "mother", "es": "madre" },
+    { "en": "father", "es": "padre" },
+    { "en": "brother", "es": "hermano" },
+    { "en": "sister", "es": "hermana" },
+    { "en": "husband", "es": "esposo" },
+    { "en": "wife", "es": "esposa" },
+    { "en": "child", "es": "hijo/a" },
+    { "en": "friend", "es": "amigo/a" },
+    { "en": "I have...", "es": "Tengo..." },
+    { "en": "Do you have...?", "es": "¿Tienes...?" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Do you have brothers or sisters?" },
+    { "speaker": "B", "text": "Yes, I have one sister." },
+    { "speaker": "A", "text": "Nice! What's her name?" },
+    { "speaker": "B", "text": "Her name is Laura." }
+  ],
+  "targetPhrases": [
+    "Do you have brothers or sisters?",
+    "I have one sister.",
+    "I have two brothers.",
+    "Her name is Laura.",
+    "His name is David.",
+    "My mother is kind.",
+    "My father is funny."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Choose the correct possessive: ____ name is Laura. (She)",
+        "options": ["His", "Her", "My"],
+        "answerIndex": 1,
+        "explanationEs": "Para 'ella' usamos 'her'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Pick the correct sentence:",
+        "options": ["I has one brother.", "I have one brother.", "I have one brothers."],
+        "answerIndex": 1,
+        "explanationEs": "Con 'I' usamos 'have'."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Which word means 'padre'?",
+        "options": ["father", "sister", "wife"],
+        "answerIndex": 0,
+        "explanationEs": "'father' = padre."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "I ____ two brothers.", "answer": "have", "explanationEs": "Con I/you/we/they: have." },
+      { "id": "fib-2", "sentenceEn": "____ name is David. (He)", "answer": "His", "explanationEs": "Para 'él' usamos 'His'." },
+      { "id": "fib-3", "sentenceEn": "Do you have a ____?", "answer": "sister", "explanationEs": "Ejemplo: Do you have a sister?" }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["have", "I", "one", "sister"], "answer": ["I", "have", "one", "sister"], "translationEs": "Tengo una hermana." },
+      { "id": "rw-2", "words": ["name", "her", "is", "Laura"], "answer": ["Her", "name", "is", "Laura"], "translationEs": "Su nombre (de ella) es Laura." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You talk about your family with a new friend.",
+    "promptsEn": [
+      "Ask if they have brothers or sisters.",
+      "Say how many siblings you have.",
+      "Ask the name of one family member."
+    ]
+  }
+}
+

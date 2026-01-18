@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "title": "Lingua · Ελληνικά A1 Starter Pack",
+  "lessons": [
+    {
+      "id": "el-a1-01-greetings",
+      "level": "A1",
+      "topic": "Introductions",
+      "titleEn": "Χαιρετισμοί και συστάσεις",
+      "titleEs": "Saludos y presentaciones",
+      "estimatedMinutes": 7,
+      "prerequisites": []
+    }
+  ]
+}
+

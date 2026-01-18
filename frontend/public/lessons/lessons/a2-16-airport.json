@@ -1,0 +1,84 @@
+{
+  "id": "a2-16-airport",
+  "titleEn": "At the Airport",
+  "titleEs": "En el aeropuerto",
+  "level": "A2",
+  "topic": "Travel",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Usar frases básicas en el aeropuerto.",
+    "Pedir ayuda con la puerta (gate) y el embarque (boarding).",
+    "Hablar de equipaje (luggage)."
+  ],
+  "grammarFocus": "Preguntas y frases funcionales (dónde, qué, puedo).",
+  "vocabList": [
+    { "en": "boarding pass", "es": "tarjeta de embarque" },
+    { "en": "gate", "es": "puerta" },
+    { "en": "flight", "es": "vuelo" },
+    { "en": "luggage", "es": "equipaje" },
+    { "en": "carry-on", "es": "equipaje de mano" },
+    { "en": "check in", "es": "hacer check-in" },
+    { "en": "Where is gate...?", "es": "¿Dónde está la puerta...?" },
+    { "en": "What time is boarding?", "es": "¿A qué hora embarca?" },
+    { "en": "I'm looking for...", "es": "Estoy buscando..." },
+    { "en": "passport", "es": "pasaporte" },
+    { "en": "security", "es": "seguridad" },
+    { "en": "delay", "es": "retraso" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Excuse me. Where is gate 12?" },
+    { "speaker": "B", "text": "Go straight and turn right." },
+    { "speaker": "A", "text": "Thanks. What time is boarding?" },
+    { "speaker": "B", "text": "Boarding is at 6:30." }
+  ],
+  "targetPhrases": [
+    "Where is gate 12?",
+    "I'm looking for gate 12.",
+    "What time is boarding?",
+    "Boarding is at 6:30.",
+    "I have one carry-on bag."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Which word means 'puerta' at the airport?",
+        "options": ["gate", "menu", "corner"],
+        "answerIndex": 0,
+        "explanationEs": "gate = puerta de embarque."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "What do you show to board a plane?",
+        "options": ["boarding pass", "receipt", "weather"],
+        "answerIndex": 0,
+        "explanationEs": "boarding pass = tarjeta de embarque."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Choose the correct question:",
+        "options": ["What time is boarding?", "What time boarding is?", "What time is board?"],
+        "answerIndex": 0,
+        "explanationEs": "Estructura correcta: What time is boarding?"
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Where is ____ 12?", "answer": "gate", "explanationEs": "gate = puerta." },
+      { "id": "fib-2", "sentenceEn": "What time is ____?", "answer": "boarding", "explanationEs": "boarding = embarque." },
+      { "id": "fib-3", "sentenceEn": "I have one ____ bag.", "answer": "carry-on", "explanationEs": "carry-on = equipaje de mano." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["gate", "is", "Where", "12"], "answer": ["Where", "is", "gate", "12"], "translationEs": "¿Dónde está la puerta 12?" },
+      { "id": "rw-2", "words": ["boarding", "at", "is", "six", "thirty"], "answer": ["Boarding", "is", "at", "six", "thirty"], "translationEs": "El embarque es a las 6:30." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "You are at the airport. Ask where your gate is and when boarding starts.",
+    "promptsEn": [
+      "Say you are looking for your gate.",
+      "Ask what time boarding is.",
+      "Ask for help with directions."
+    ]
+  }
+}
+

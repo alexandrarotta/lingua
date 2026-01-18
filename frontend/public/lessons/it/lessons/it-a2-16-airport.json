@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-16-airport",
+  "titleEn": "In aeroporto",
+  "titleEs": "En el aeropuerto",
+  "level": "A2",
+  "topic": "Travel",
+  "estimatedMinutes": 10,
+  "objectives": [
+    "Hacer frases básicas en el aeropuerto.",
+    "Hablar de tu vuelo y equipaje.",
+    "Preguntar por la puerta (gate) y horarios."
+  ],
+  "grammarFocus": "Frases útiles: 'Ho un volo per...', 'Dov'è il gate?', 'A che ora parte...?'",
+  "vocabList": [
+    { "en": "Ho un volo per...", "es": "Tengo un vuelo a..." },
+    { "en": "carta d'imbarco", "es": "tarjeta de embarque" },
+    { "en": "passaporto", "es": "pasaporte" },
+    { "en": "bagaglio a mano", "es": "equipaje de mano" },
+    { "en": "bagaglio", "es": "equipaje" },
+    { "en": "controllo di sicurezza", "es": "control de seguridad" },
+    { "en": "gate", "es": "puerta (gate)" },
+    { "en": "A che ora parte?", "es": "¿A qué hora sale?" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Buongiorno. Ho un volo per Roma." },
+    { "speaker": "B", "text": "Carta d'imbarco e passaporto, per favore." },
+    { "speaker": "A", "text": "Ecco. Dov'è il gate 12?" },
+    { "speaker": "B", "text": "Dritto e poi a sinistra. Dopo il controllo di sicurezza." }
+  ],
+  "targetPhrases": [
+    "Ho un volo per Roma.",
+    "Ecco la carta d'imbarco.",
+    "Ecco il passaporto.",
+    "Dov'è il gate 12?",
+    "Dopo il controllo di sicurezza.",
+    "Ho solo bagaglio a mano.",
+    "A che ora parte?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Quale parola significa 'tarjeta de embarque'?",
+        "options": ["carta d'imbarco", "chiave", "colazione"],
+        "answerIndex": 0,
+        "explanationEs": "Carta d'imbarco = tarjeta de embarque."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Come chiedi la porta d'imbarco?",
+        "options": ["Dov'è il gate 12?", "Che tempo fa?", "Che taglia?"],
+        "answerIndex": 0,
+        "explanationEs": "Dov'è il gate...? pregunta la puerta."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli 'control de seguridad':",
+        "options": ["controllo di sicurezza", "numero di telefono", "tempo libero"],
+        "answerIndex": 0,
+        "explanationEs": "Controllo di sicurezza = control de seguridad."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "Ho un volo ____ Roma.", "answer": "per", "explanationEs": "Volo per... = vuelo a..." },
+      { "id": "fib-2", "sentenceEn": "Dov'è il ____ 12?", "answer": "gate", "explanationEs": "Gate = puerta." },
+      { "id": "fib-3", "sentenceEn": "Ecco il ____.", "answer": "passaporto", "explanationEs": "Passaporto = pasaporte." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["il", "gate", "Dov'è"], "answer": ["Dov'è", "il", "gate"], "translationEs": "¿Dónde está la puerta?" },
+      { "id": "rw-2", "words": ["volo", "Ho", "un", "per", "Roma"], "answer": ["Ho", "un", "volo", "per", "Roma"], "translationEs": "Tengo un vuelo a Roma." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Sei in aeroporto. Mostra i documenti e chiedi dove è il gate.",
+    "promptsEn": [
+      "Di' dove vai e mostra la carta d'imbarco.",
+      "Chiedi dove è il gate e segui le indicazioni.",
+      "Chiedi a che ora parte il volo."
+    ]
+  }
+}
+

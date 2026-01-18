@@ -1,0 +1,111 @@
+{
+  "id": "el-a1-01-greetings",
+  "titleEn": "Χαιρετισμοί και συστάσεις",
+  "titleEs": "Saludos y presentaciones",
+  "level": "A1",
+  "topic": "Introductions",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Saludar y presentarte de forma simple en griego.",
+    "Preguntar y decir tu nombre.",
+    "Preguntar y decir de dónde eres."
+  ],
+  "grammarFocus": "Frases básicas: «Με λένε…» (Me llamo…), «Πώς σε λένε;» (¿Cómo te llamas?), «Από πού είσαι;» (¿De dónde eres?)",
+  "vocabList": [
+    { "en": "Γεια!", "es": "¡Hola!" },
+    { "en": "Καλημέρα", "es": "Buenos días" },
+    { "en": "Καλησπέρα", "es": "Buenas tardes/noches" },
+    { "en": "Με λένε...", "es": "Me llamo..." },
+    { "en": "Χάρηκα!", "es": "¡Encantado/a!" },
+    { "en": "Κι εσύ;", "es": "¿Y tú?" },
+    { "en": "Από πού είσαι;", "es": "¿De dónde eres?" },
+    { "en": "Είμαι από...", "es": "Soy de..." },
+    { "en": "Ευχαριστώ", "es": "Gracias" },
+    { "en": "Τα λέμε", "es": "Nos vemos" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Γεια! Με λένε Άνα. Εσένα πώς σε λένε;" },
+    { "speaker": "B", "text": "Γεια σου, Άνα. Με λένε Μάρκο. Χάρηκα!" },
+    { "speaker": "A", "text": "Χάρηκα! Από πού είσαι;" },
+    { "speaker": "B", "text": "Είμαι από το Μεξικό. Κι εσύ;" },
+    { "speaker": "A", "text": "Είμαι από την Ισπανία." }
+  ],
+  "targetPhrases": [
+    "Γεια, με λένε Άνα.",
+    "Πώς σε λένε;",
+    "Με λένε Μάρκο.",
+    "Χάρηκα!",
+    "Από πού είσαι;",
+    "Είμαι από το Μεξικό.",
+    "Κι εσύ;",
+    "Τα λέμε."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Διάλεξε έναν χαιρετισμό για το πρωί:",
+        "options": ["Καληνύχτα", "Καλημέρα", "Αντίο"],
+        "answerIndex": 1,
+        "explanationEs": "Por la mañana se usa «Καλημέρα»."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Ποια φράση σημαίνει «Me llamo Ana»;",
+        "options": ["Με λένε Άνα", "Είμαι από Άνα", "Πώς σε λένε Άνα"],
+        "answerIndex": 0,
+        "explanationEs": "«Με λένε…» significa «Me llamo…»."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Ποια ερώτηση ρωτάει από πού είσαι;",
+        "options": ["Από πού είσαι;", "Πώς σε λένε;", "Πόσων χρονών είσαι;"],
+        "answerIndex": 0,
+        "explanationEs": "«Από πού είσαι;» pregunta de dónde eres."
+      }
+    ],
+    "fillInTheBlank": [
+      {
+        "id": "fib-1",
+        "sentenceEn": "Με ____ Μάρκο.",
+        "answer": "λένε",
+        "explanationEs": "Para decir «Me llamo»: Με λένε + nombre."
+      },
+      {
+        "id": "fib-2",
+        "sentenceEn": "Είμαι ____ την Ισπανία.",
+        "answer": "από",
+        "explanationEs": "Para decir origen: Είμαι από + lugar."
+      },
+      {
+        "id": "fib-3",
+        "sentenceEn": "Κι ____;",
+        "answer": "εσύ",
+        "explanationEs": "Para decir «¿y tú?»: Κι εσύ;"
+      }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["λένε", "Με", "Άνα"],
+        "answer": ["Με", "λένε", "Άνα"],
+        "translationEs": "Me llamo Άνα."
+      },
+      {
+        "id": "rw-2",
+        "words": ["πού", "Από", "είσαι"],
+        "answer": ["Από", "πού", "είσαι"],
+        "translationEs": "¿De dónde eres?"
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Γνωρίζεις κάποιον σε ένα καφέ. Χαιρέτησε, συστήσου και ρώτα από πού είναι.",
+    "promptsEn": [
+      "Χαιρέτησε και συστήσου.",
+      "Ρώτα το όνομα και από πού είναι.",
+      "Κλείσε τη συζήτηση ευγενικά."
+    ]
+  }
+}
+

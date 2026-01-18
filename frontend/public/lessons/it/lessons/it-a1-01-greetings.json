@@ -1,0 +1,110 @@
+{
+  "id": "it-a1-01-greetings",
+  "titleEn": "Saluti e presentazioni",
+  "titleEs": "Saludos y presentaciones",
+  "level": "A1",
+  "topic": "Introductions",
+  "estimatedMinutes": 7,
+  "objectives": [
+    "Saludar y presentarte de forma simple en italiano.",
+    "Preguntar y decir tu nombre.",
+    "Preguntar y decir de dónde eres."
+  ],
+  "grammarFocus": "Verbo 'essere' (sono/sei/è) y preguntas cortas: 'Come ti chiami?' / 'Di dove sei?'",
+  "vocabList": [
+    { "en": "Ciao", "es": "Hola / Adiós (informal)" },
+    { "en": "Buongiorno", "es": "Buenos días" },
+    { "en": "Buonasera", "es": "Buenas tardes/noches" },
+    { "en": "Mi chiamo...", "es": "Me llamo..." },
+    { "en": "Piacere!", "es": "¡Encantado/a!" },
+    { "en": "E tu?", "es": "¿Y tú?" },
+    { "en": "Di dove sei?", "es": "¿De dónde eres?" },
+    { "en": "Sono di...", "es": "Soy de..." },
+    { "en": "Grazie", "es": "Gracias" },
+    { "en": "A presto", "es": "Hasta pronto" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Ciao! Mi chiamo Ana. E tu come ti chiami?" },
+    { "speaker": "B", "text": "Ciao, Ana. Mi chiamo Marco. Piacere!" },
+    { "speaker": "A", "text": "Piacere! Di dove sei?" },
+    { "speaker": "B", "text": "Sono del Messico. E tu?" },
+    { "speaker": "A", "text": "Sono di Spagna." }
+  ],
+  "targetPhrases": [
+    "Ciao, mi chiamo Ana.",
+    "Come ti chiami?",
+    "Mi chiamo Marco.",
+    "Piacere!",
+    "Di dove sei?",
+    "Sono del Messico.",
+    "E tu?",
+    "A presto."
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli un saluto per la mattina:",
+        "options": ["Buonanotte", "Buongiorno", "Arrivederci"],
+        "answerIndex": 1,
+        "explanationEs": "En la mañana se usa 'Buongiorno'."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Completa la frase: Io ___ Ana.",
+        "options": ["sono", "sei", "è"],
+        "answerIndex": 0,
+        "explanationEs": "Con 'io' usamos 'sono'."
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Quale domanda chiede il nome?",
+        "options": ["Come ti chiami?", "Di dove sei?", "Quanti anni hai?"],
+        "answerIndex": 0,
+        "explanationEs": "'Come ti chiami?' pregunta el nombre."
+      }
+    ],
+    "fillInTheBlank": [
+      {
+        "id": "fib-1",
+        "sentenceEn": "Io ____ di Spagna.",
+        "answer": "sono",
+        "explanationEs": "Para decir origen: Io sono di + lugar."
+      },
+      {
+        "id": "fib-2",
+        "sentenceEn": "____ ti chiami?",
+        "answer": "Come",
+        "explanationEs": "Para preguntar el nombre: Come ti chiami?"
+      },
+      {
+        "id": "fib-3",
+        "sentenceEn": "Sono ____ Messico.",
+        "answer": "del",
+        "explanationEs": "Para decir origen con un país (masc.): Sono del + país."
+      }
+    ],
+    "reorderWords": [
+      {
+        "id": "rw-1",
+        "words": ["chiamo", "Mi", "Marco"],
+        "answer": ["Mi", "chiamo", "Marco"],
+        "translationEs": "Me llamo Marco."
+      },
+      {
+        "id": "rw-2",
+        "words": ["sei", "dove", "Di"],
+        "answer": ["Di", "dove", "sei"],
+        "translationEs": "¿De dónde eres?"
+      }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Incontri qualcuno in un bar. Saluta, presentati e chiedi da dove è.",
+    "promptsEn": [
+      "Saluta e presentati.",
+      "Chiedi il nome e da dove è.",
+      "Saluta e chiudi la conversazione in modo gentile."
+    ]
+  }
+}

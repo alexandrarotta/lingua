@@ -1,0 +1,86 @@
+{
+  "id": "it-a1-03-family",
+  "titleEn": "Famiglia e amici",
+  "titleEs": "Familia y amigos",
+  "level": "A1",
+  "topic": "Family",
+  "estimatedMinutes": 8,
+  "objectives": [
+    "Hablar de tu familia con frases simples.",
+    "Usar posesivos básicos (mio/mia, tuo/tua).",
+    "Preguntar por familia y relaciones."
+  ],
+  "grammarFocus": "Posesivos: mio/mia, tuo/tua. Estructura: 'Ho un/una...' y 'Mio/Mia ... si chiama...'.",
+  "vocabList": [
+    { "en": "madre", "es": "madre" },
+    { "en": "padre", "es": "padre" },
+    { "en": "sorella", "es": "hermana" },
+    { "en": "fratello", "es": "hermano" },
+    { "en": "figlio", "es": "hijo" },
+    { "en": "figlia", "es": "hija" },
+    { "en": "amico", "es": "amigo" },
+    { "en": "amica", "es": "amiga" },
+    { "en": "mio / mia", "es": "mi (posesivo)" },
+    { "en": "tuo / tua", "es": "tu (posesivo)" },
+    { "en": "Come si chiama tua madre?", "es": "¿Cómo se llama tu madre?" },
+    { "en": "Ho un fratello", "es": "Tengo un hermano" }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Hai fratelli o sorelle?" },
+    { "speaker": "B", "text": "Sì, ho una sorella. Si chiama Laura." },
+    { "speaker": "A", "text": "Che bello! E tuo padre come si chiama?" },
+    { "speaker": "B", "text": "Mio padre si chiama Paolo." }
+  ],
+  "targetPhrases": [
+    "Hai fratelli o sorelle?",
+    "Ho una sorella.",
+    "Ho due fratelli.",
+    "Mia madre si chiama Ana.",
+    "Mio padre si chiama Paolo.",
+    "Ho un'amica.",
+    "E tu?"
+  ],
+  "exercises": {
+    "multipleChoice": [
+      {
+        "id": "mcq-1",
+        "questionEn": "Scegli il possessivo corretto: ____ madre",
+        "options": ["mio", "mia", "tuo"],
+        "answerIndex": 1,
+        "explanationEs": "Madre es femenino: mia madre."
+      },
+      {
+        "id": "mcq-2",
+        "questionEn": "Come chiedi il nome della madre?",
+        "options": ["Dov'è tua madre?", "Come si chiama tua madre?", "Quanti anni ha tua madre?"],
+        "answerIndex": 1,
+        "explanationEs": "Para preguntar el nombre: Come si chiama...?"
+      },
+      {
+        "id": "mcq-3",
+        "questionEn": "Scegli la frase corretta:",
+        "options": ["Ho una fratello.", "Ho un fratello.", "Ho un sorella."],
+        "answerIndex": 1,
+        "explanationEs": "Fratello es masculino: un fratello."
+      }
+    ],
+    "fillInTheBlank": [
+      { "id": "fib-1", "sentenceEn": "____ madre si chiama Laura.", "answer": "Mia", "explanationEs": "Mia madre = mi madre." },
+      { "id": "fib-2", "sentenceEn": "Ho una ____.", "answer": "sorella", "explanationEs": "Sorella = hermana." },
+      { "id": "fib-3", "sentenceEn": "Mio padre si ____ Paolo.", "answer": "chiama", "explanationEs": "Si chiama = se llama." }
+    ],
+    "reorderWords": [
+      { "id": "rw-1", "words": ["chiama", "Mia", "madre", "si", "Ana"], "answer": ["Mia", "madre", "si", "chiama", "Ana"], "translationEs": "Mi madre se llama Ana." },
+      { "id": "rw-2", "words": ["una", "Ho", "sorella"], "answer": ["Ho", "una", "sorella"], "translationEs": "Tengo una hermana." }
+    ]
+  },
+  "conversationScenario": {
+    "roleplayEn": "Parli con un nuovo amico. Chiedi della sua famiglia e parla della tua.",
+    "promptsEn": [
+      "Chiedi se ha fratelli o sorelle.",
+      "Di' quante persone ci sono nella tua famiglia.",
+      "Chiedi il nome di un familiare (madre/padre)."
+    ]
+  }
+}
+
